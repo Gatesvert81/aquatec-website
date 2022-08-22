@@ -39,7 +39,7 @@ function About() {
                 </motion.div>
                 <motion.div className='w-full h-40vh  relative overflow-hidden' >
                     <motion.div className='w-full h-full' {...imageAnimate} >
-                        <Image src="/project-pics/aquatec-palace.JPG" alt='Dream pool' layout='fill' className='object-cover' />
+                        <Image src="/project-pics/aquatec-palace.jpg" alt='Dream pool' layout='fill' className='object-cover' />
                     </motion.div>
                 </motion.div>
             </motion.section>
@@ -140,7 +140,7 @@ function About() {
                         </motion.div>
                         <motion.div className='w-full h-40vh  relative overflow-hidden' >
                             <motion.div className='w-full h-full' {...imageAnimate} >
-                                <Image src="/project-pics/aquatec-palace.JPG" alt='Dream pool' layout='fill' className='object-cover' />
+                                <Image src="/project-pics/aquatec-palace.jpg" alt='Dream pool' layout='fill' className='object-cover' />
                             </motion.div>
                         </motion.div>
                     </motion.div>

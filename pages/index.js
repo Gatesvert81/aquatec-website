@@ -134,7 +134,7 @@ export default function Home() {
               duration: 0.5
             }
           }}>
-          <Image src="/project-pics/stuart.JPG" alt='Dream pool' layout='fill' className='object-cover' />
+          <Image src="/project-pics/stuart.jpg" alt='Dream pool' layout='fill' className='object-cover' />
         </motion.div>
       </motion.section>
 
