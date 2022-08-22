@@ -2,7 +2,7 @@ import React from 'react'
 
 function ReviewCard({ title, children, name, position }) {
     return (
-        <div className='w-full h-fit rounded-md ' >
+        <div className='w-80 h-fit rounded-lg shrink-0 bg-white p-5 shadow-md ' >
             <h3>
                 {title}
             </h3>

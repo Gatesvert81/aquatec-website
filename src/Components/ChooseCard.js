@@ -1,18 +1,25 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { motion } from 'framer-motion'
+import { AnimationContext } from './Context'
 
 function ChooseCard({ number, title, children }) {
+    const { textAnimate } = useContext(AnimationContext)
+
     return (
-        <div className='w-full h-fit grid grid-cols-1 gap-2' >
-            <h4 className='w-full flex justify-start gap-5' >
-                <span className='text-light-gray' >
+        <motion.div 
+            className='w-full h-fit grid grid-cols-1 gap-2' 
+            {...textAnimate}
+            >
+            <motion.h4 className='w-full flex justify-start gap-5' >
+                <motion.span className='text-light-gray' >
                     {number}
-                </span>
+                </motion.span>
                 {title}
-            </h4>
-            <p>
+            </motion.h4>
+            <motion.p>
                 {children}
-            </p>
-        </div>
+            </motion.p>
+        </motion.div>
     )
 }
 

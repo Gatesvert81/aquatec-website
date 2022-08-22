@@ -1,13 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { motion } from 'framer-motion'
+import { AnimationContext } from './Context'
 
 function SectionHead({ children }) {
+    const { textAnimate } = useContext(AnimationContext)
     return (
-        <div className='w-full flex justify-start items-center gap-5' >
-            <div className='w-6 h-5 bg-dark-blue' />
-            <h3>
+        <motion.div className='w-full flex justify-start items-center gap-5' {...textAnimate} >
+            <motion.div className='w-6 h-5 bg-dark-blue' />
+            <motion.h3>
                 {children}
-            </h3>
-        </div>
+            </motion.h3>
+        </motion.div>
     )
 }
 

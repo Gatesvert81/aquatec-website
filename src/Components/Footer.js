@@ -1,28 +1,58 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Button from './Button'
+import Logo from './Logo'
+import Image from 'next/image'
+import AnchorLink from './AnchorLink'
+import { NavContext } from './Context'
 
 function Footer() {
+    const [page, setPage] = useContext(NavContext)
     return (
-        <footer className='w-full h-fit bg-dark-blue flex flex-col gap-3 justify-center items-center p-10' >
-            <div>
-                logo
+        <footer className='w-full h-fit bg-dark-blue flex flex-col md:flex-row gap-3 justify-center items-center p-10 text-white' >
+            <div className='' >
+                <Logo />
             </div>
-            <div className='w-full flex justify-center gap-2' >
-                <Button>
-                    Home
-                </Button>
-                <Button>
-                    About
-                </Button>
-                <Button>
-                    Store
-                </Button>
-                <Button>
-                    Projects
-                </Button>
-                <Button>
-                    Contact
-                </Button>
+            <div className='w-full md:fit flex md:flex-col justify-center md:items-center gap-2' >
+                <AnchorLink route="/">
+                    <Button
+                        style={`footer-btn ${page === 'home' ? "page" : null} `}
+                        click={() => setPage('home')}
+                    >
+                        Home
+                    </Button>
+                </AnchorLink>
+                <AnchorLink route="/about">
+                    <Button
+                        style={`footer-btn ${page === 'about' ? "page" : null} `}
+                        click={() => setPage('about')}
+                    >
+                        About
+                    </Button>
+                </AnchorLink>
+                <AnchorLink route="/projects">
+                    <Button
+                        style={`footer-btn ${page === 'projects' ? "page" : null} `}
+                        click={() => setPage('projects')}
+                    >
+                        Projects
+                    </Button>
+                </AnchorLink>
+                <AnchorLink route="/store">
+                    <Button
+                        style={`footer-btn ${page === 'store' ? "page" : null} `}
+                        click={() => setPage('store')}
+                    >
+                        Store
+                    </Button>
+                </AnchorLink>
+                <AnchorLink route="/contact">
+                    <Button
+                        style={`footer-btn ${page === 'contact' ? "page" : null} `}
+                        click={() => setPage('contact')}
+                    >
+                        Contact
+                    </Button>
+                </AnchorLink>
             </div>
             <div>
                 <div className='text-center capitalize' >
@@ -39,8 +69,22 @@ function Footer() {
                         info@aquatecghana.com
                     </h6>
                 </div>
-                <div>
-                    Icons
+                <div className='w-full flex justify-center items-center gap-3' >
+                    <div className='icon' >
+                        <AnchorLink route="https://www.facebook.com/aquatecghana/" pass={true} target={true} >
+                            <Image src="/icons/fb.png" alt='Dream pool' layout='fill' className='object-contain' />
+                        </AnchorLink>
+                    </div>
+                    <div className='icon' >
+                        <AnchorLink route="https://www.facebook.com/aquatecghana/"  pass={true} target={true}>
+                            <Image src="/icons/ig.png" alt='Dream pool' layout='fill' className='object-contain' />
+                        </AnchorLink>
+                    </div>
+                    <div className='icon' >
+                        <AnchorLink route="https://www.facebook.com/aquatecghana/"  pass={true} target={true} >
+                            <Image src="/icons/twitter.png" alt='Dream pool' layout='fill' className='object-contain' />
+                        </AnchorLink>
+                    </div>
                 </div>
             </div>
         </footer>

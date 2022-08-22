@@ -11,7 +11,7 @@ module.exports = {
         "gray": "#88888",
         "light-gray": "#c5c5c5",
         "light-white": "#f8f8f8",
-        "sea-blue": "#3b82f6"
+        "sea-blue": "#5FC2D9"
       },
       height: {
         "10vh": "10vh",

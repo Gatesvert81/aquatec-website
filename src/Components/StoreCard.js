@@ -1,14 +1,26 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { motion } from 'framer-motion'
+import Image from 'next/image'
+import { AnimationContext } from './Context'
 
-function StoreCard({ children }) {
+function StoreCard({ children, image }) {
+    const { textAnimate, imageAnimate } = useContext(AnimationContext)
     return (
-        <div className='w-60 h-60 bg-blue-300 rounded-full overflow-hidden' >
-            <div className='w-full h-full flex flex-col justify-center items-center bg-dark-blue/50 -rotate-12' >
-                <h3>
+        <motion.div
+            className='w-60 h-60 bg-blue-300 rounded-full overflow-hidden'
+            {...textAnimate}
+        >
+            <motion.div className='w-full h-full  relative overflow-hidden' >
+                <motion.div className='w-full h-full' {...imageAnimate} >
+                    <Image src={`/project-pics/${image}`} alt='Dream pool' layout='fill' className='object-cover' />
+                </motion.div>
+            </motion.div>
+            <motion.div className='w-full h-full absolute top-0 left-0 z-10 flex flex-col justify-center items-center bg-dark-blue/30 -rotate-12 text-light-white' >
+                <motion.h3 {...textAnimate} >
                     {children}
-                </h3>
-            </div>
-        </div>
+                </motion.h3>
+            </motion.div>
+        </motion.div>
     )
 }
 

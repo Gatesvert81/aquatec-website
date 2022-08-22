@@ -16,31 +16,31 @@
 
   main,
   section {
-    @apply w-full h-fit p-10
+    @apply w-full h-fit p-10 md:px-20 lg:px-36
   }
 
   h1 {
-    @apply text-5xl font-semibold uppercase
+    @apply text-5xl md:text-7xl font-semibold uppercase
   }
 
   h2 {
-    @apply text-4xl font-semibold uppercase
+    @apply text-4xl md:text-5xl font-semibold uppercase
   }
 
   h3 {
-    @apply text-3xl font-semibold uppercase
+    @apply text-3xl md:text-4xl font-semibold uppercase
   }
 
   h4 {
-    @apply text-2xl font-semibold uppercase
+    @apply text-2xl md:text-3xl font-semibold uppercase
   }
 
   h5 {
-    @apply text-xl font-semibold uppercase
+    @apply text-xl md:text-2xl font-semibold uppercase
   }
 
   h6 {
-    @apply text-lg font-semibold uppercase
+    @apply text-lg md:text-xl font-semibold uppercase
   }
 
   fieldset{
@@ -64,18 +64,43 @@
 @layer components {
 
   .primary-btn {
-    @apply py-2 px-5 text-center text-white bg-blue-500 rounded-lg
+    @apply w-fit h-fit py-2 px-5 text-center text-white bg-sea-blue rounded-lg
   }
 
   .side-nav-btn {
-    @apply text-5xl font-light uppercase md:text-base
+    @apply text-5xl font-light md:font-normal uppercase md:text-base text-light-gray
+  }
+
+  .footer-btn {
+    @apply text-lg font-light md:font-normal uppercase md:text-base text-light-gray
   }
 
   .page {
     @apply font-semibold text-white md:text-sea-blue
   }
 
+  .icon {
+    @apply w-8 h-10 relative
+  }
+
+  .no-scrollbar::-webkit-scrollbar{
+    @apply hidden
+  }
+
+  .project{
+    @apply transition duration-500
+  }
+
+  .project-detail {
+    @apply md:-bottom-12 left-0 absolute -bottom-  px-2 transition duration-500 
+  }
+
+  .project:hover > .project-detail {
+    @apply bottom-0 left-0 transition duration-500 ease-linear
+  }
+
 }
+
 
 /* @media (prefers-color-scheme: dark) {
   html {
