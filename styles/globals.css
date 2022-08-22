@@ -1,21 +1,83 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
+
+@layer base {
+
+  html,
+  body {
+    @apply p-0 m-0 font-sans
+  }
+
+  a {
+    @apply text-inherit
+  }
+
+  main,
+  section {
+    @apply w-full h-fit p-10
+  }
+
+  h1 {
+    @apply text-5xl font-semibold uppercase
+  }
+
+  h2 {
+    @apply text-4xl font-semibold uppercase
+  }
+
+  h3 {
+    @apply text-3xl font-semibold uppercase
+  }
+
+  h4 {
+    @apply text-2xl font-semibold uppercase
+  }
+
+  h5 {
+    @apply text-xl font-semibold uppercase
+  }
+
+  h6 {
+    @apply text-lg font-semibold uppercase
+  }
+
+  fieldset{
+    @apply w-full flex flex-col 
+  }
+
+  label{
+    @apply text-sm font-medium
+  }
+
+  input, textarea{
+    @apply w-full px-3 py-2 border-2 border-light-gray rounded-lg focus:border-sea-blue focus:border-2
+  }
+
 }
 
 * {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+@layer components {
+
+  .primary-btn {
+    @apply py-2 px-5 text-center text-white bg-blue-500 rounded-lg
+  }
+
+  .side-nav-btn {
+    @apply text-5xl font-light uppercase md:text-base
+  }
+
+  .page {
+    @apply font-semibold text-white md:text-sea-blue
+  }
+
+}
+
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -23,4 +85,4 @@ a {
     color: white;
     background: black;
   }
-}
+} */
