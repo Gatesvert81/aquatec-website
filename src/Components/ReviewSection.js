@@ -36,7 +36,7 @@ function ReviewSection() {
                     title="Local Customer"
                     name="Vidic Dzyan"
                 >
-                    Aquatec is ur number one stop home for all ur pool needs. They sell pool pumps, filters, skimmers, lights, tiles, anti-algi solutions and all pool plumbing fittings except 2" pressure pipes. They are the best.
+                    Aquatec is ur number one stop home for all ur pool needs. They sell pool pumps, filters, skimmers, lights, tiles, anti-algi solutions and all pool plumbing fittings except 2&quot; pressure pipes. They are the best.
                 </ReviewCard>
                 <ReviewCard
                     title="Local Customer"

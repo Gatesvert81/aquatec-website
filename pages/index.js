@@ -126,10 +126,10 @@ export default function Home() {
         className='w-full h-fit relative'
       >
         <video 
-          autoplay={true}
+          autoPlay
           muted 
           loop 
-          controls
+          // controls
           play
           id="myVideo"
           className='w-full h-full relative'
