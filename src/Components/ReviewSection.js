@@ -23,37 +23,26 @@ function ReviewSection() {
                 <ReviewCard
                     title="Movinpick Hotel"
                     name="Henvy steve"
-                    position="Ceo"
                 >
-                    Drive performace and our cross-functional colaboration with easy-to-use dashboards, data visualizations.
+                    Great Pool and it has lasted for years. Glad I chose Aquatec.
                 </ReviewCard>
                 <ReviewCard
-                    title="Movinpick Hotel"
-                    name="Henvy steve"
-                    position="Ceo"
+                    title="Local Guide"
+                    name="Bamidele Owoyele"
                 >
-                    Drive performace and our cross-functional colaboration with easy-to-use dashboards, data visualizations.
+                    The Aquatec Services Limited is a standard laboratory with serene environment.The practices are standard compared with what obtains in good laboratories. The interior of the laboratory is cool. The staff are friendly and professional.
                 </ReviewCard>
                 <ReviewCard
-                    title="Movinpick Hotel"
-                    name="Henvy steve"
-                    position="Ceo"
+                    title="Local Customer"
+                    name="Vidic Dzyan"
                 >
-                    Drive performace and our cross-functional colaboration with easy-to-use dashboards, data visualizations.
+                    Aquatec is ur number one stop home for all ur pool needs. They sell pool pumps, filters, skimmers, lights, tiles, anti-algi solutions and all pool plumbing fittings except 2" pressure pipes. They are the best.
                 </ReviewCard>
                 <ReviewCard
-                    title="Movinpick Hotel"
-                    name="Henvy steve"
-                    position="Ceo"
+                    title="Local Customer"
+                    name="Carmen Gabriel Avle"
                 >
-                    Drive performace and our cross-functional colaboration with easy-to-use dashboards, data visualizations.
-                </ReviewCard>
-                <ReviewCard
-                    title="Movinpick Hotel"
-                    name="Henvy steve"
-                    position="Ceo"
-                >
-                    Drive performace and our cross-functional colaboration with easy-to-use dashboards, data visualizations.
+                    Had an issue here, but it was amicably resolved.
                 </ReviewCard>
             </div>
         </section>

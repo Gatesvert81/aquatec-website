@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ReviewCard({ title, children, name, position }) {
+function ReviewCard({ title, children, name }) {
     return (
-        <div className='w-80 h-fit rounded-lg shrink-0 bg-white p-5 shadow-md ' >
+        <div className='w-80 h-full rounded-lg shrink-0 bg-white p-5 shadow-md ' >
             <h3>
                 {title}
             </h3>
@@ -12,9 +12,7 @@ function ReviewCard({ title, children, name, position }) {
             <div className='flex flex-col justify-start gap-2' >
                 <h6 className='flex flex-col justify-start'>
                     {name}
-                    <span className='text-light-gray' >
-                        {position}
-                    </span>
+                    
                 </h6>
             </div>
         </div>

@@ -3,8 +3,6 @@ import { motion } from 'framer-motion'
 import Head from 'next/head'
 import Image from 'next/image'
 import SectionHead from '../src/Components/SectionHead'
-import Button from '../src/Components/Button'
-import StoreCard from '../src/Components/StoreCard'
 import AdvantageCard from '../src/Components/AdvantageCard'
 import { AnimationContext, NavContext } from '../src/Components/Context'
 import Page from '../src/AnimatedComponents/Page'
@@ -51,7 +49,7 @@ function About() {
                 </motion.div>
                 <motion.div className='w-full flex flex-col justify-center h-full'>
                     <motion.p {...textAnimate}>
-                        AQUATEC was established in 1976 to cater for the Swimming Pool Industry in Ghana. We have since branched out into other areas of the Water Industry such as Industrial and Residential Water Supply, with its related Equipment, including Pump Sets and Irrigation Equipment.
+                        At AQUATEC we also construct state of the art Swimming Pools and Water Features, and have a Retail and Wholesale Division dealing in Swimming Pool and Fountain Equipment, Pool Chemicals and Domestic and Industrial Water Pump Sets.
                     </motion.p>
                 </motion.div>
 
@@ -59,7 +57,7 @@ function About() {
             <motion.section className='grid md:grid-cols-2 gap-5 '>
                 <motion.div className='w-full flex flex-col justify-center h-full'>
                     <motion.p {...textAnimate}>
-                        AQUATEC was established in 1976 to cater for the Swimming Pool Industry in Ghana. We have since branched out into other areas of the Water Industry such as Industrial and Residential Water Supply, with its related Equipment, including Pump Sets and Irrigation Equipment.
+                        AQUATEC is still the Leader in Ghana&#39;s Swimming Pool Industry. Our Pools are constructed with the highest quality Premix Concrete and fitted with Pool Equipment manufactured by Fluidra, the worlds&#39; largest manufacturer of Premier Pool Products. Our Pool Shells carry a Ten Year Warranty.
                     </motion.p>
                 </motion.div>
                 <motion.div className='w-full h-40vh  relative overflow-hidden' >
@@ -106,22 +104,22 @@ function About() {
                 <motion.div className='w-full grid grid-cols-1 md:grid-cols-4 gap-5' >
                     <motion.div className='w-full h-32 relative' >
                         <motion.div className='w-full h-full' {...imageAnimate} >
-                            <Image src="/FLUIDRA.PNG" alt='Dream pool' layout='fill' className='object-cover' />
+                            <Image src="/FLUIDRA.png" alt='FLUIDRA' layout='fill' className='object-cover' />
                         </motion.div>
                     </motion.div>
                     <motion.div className='w-full h-32 relative' >
                         <motion.div className='w-full h-full' {...imageAnimate} >
-                            <Image src="/FOUNTAIN DIRECT.png" alt='Dream pool' layout='fill' className='object-cover' />
+                            <Image src="/FOUNTAIN DIRECT.png" alt='FOUNTAIN DIRECT' layout='fill' className='object-cover' />
                         </motion.div>
                     </motion.div>
                     <motion.div className='w-full h-32 relative' >
                         <motion.div className='w-full h-full' {...imageAnimate} >
-                            <Image src="/Topturf_logo_RGB.jpg" alt='Dream pool' layout='fill' className='object-contain' />
+                            <Image src="/Topturf_logo_RGB.jpg" alt='Topturf' layout='fill' className='object-contain' />
                         </motion.div>
                     </motion.div>
                     <motion.div className='w-full h-32 relative' >
                         <motion.div className='w-full h-full' {...imageAnimate} >
-                            <Image src="/DAB.png" alt='Dream pool' layout='fill' className='object-contain' />
+                            <Image src="/DAB.png" alt='DAB' layout='fill' className='object-contain' />
                         </motion.div>
                     </motion.div>
                 </motion.div>
