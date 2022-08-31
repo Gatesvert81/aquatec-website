@@ -101,7 +101,7 @@ export default function Home() {
           </ChooseCard>
         </motion.div>
       </motion.section>
-      <StoreSection />F
+      <StoreSection />
       <motion.section className='w-full flex flex-col  gap-5'>
         <motion.div className='w-full flex flex-col md:flex-row justify-between items-center' >
           <SectionHead>
