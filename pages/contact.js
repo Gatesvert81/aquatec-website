@@ -11,7 +11,7 @@ import AnchorLink from '../src/Components/AnchorLink'
 function Contact() {
 
     const [page, setPage] = useContext(NavContext)
-    const { textAnimate, imageAnimate } = useContext(AnimationContext)
+    const { textAnimate } = useContext(AnimationContext)
 
     useEffect(() => {
         if (page !== "contact") setPage('contact')

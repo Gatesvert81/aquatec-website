@@ -69,7 +69,7 @@ function Navigation() {
                     </AnchorLink>
                 </div>
                 <div className='hidden md:flex justify-start items-center gap-10'>
-                    <AnchorLink route="https://www.foodandagriculturelaw.com/aquatec">
+                    <AnchorLink route="/store">
                         <Button
                             style={`side-nav-btn ${page === 'store' ? "page" : null} `}
                             click={() => setPage('store')}
@@ -135,7 +135,7 @@ function Navigation() {
                                     About
                                 </Button>
                             </AnchorLink>
-                            <AnchorLink route="https://www.foodandagriculturelaw.com/aquatec">
+                            <AnchorLink route="/store">
                                 <Button
                                     style={`side-nav-btn ${page === 'store' ? "page" : null} `}
                                     click={() => handleNav('store')}

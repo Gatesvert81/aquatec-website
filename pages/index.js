@@ -129,8 +129,6 @@ export default function Home() {
           autoPlay
           muted 
           loop 
-          // controls
-          play
           id="myVideo"
           className='w-full h-full relative'
           >
