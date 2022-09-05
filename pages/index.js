@@ -116,9 +116,9 @@ export default function Home() {
           </div>
         </motion.div>
         <motion.div className='w-full md:h-40vh flex flex-col md:flex-row justify-center items-center gap-5 rounded-tl-[15vw] rounded-br-[15vw] overflow-hidden '>
-          <ProjectCard image="movinpic" />
-          <ProjectCard image="plant-house" />
-          <ProjectCard image="residence" />
+          <ProjectCard image="movinpic.webp" />
+          <ProjectCard image="plant-house.webp" />
+          <ProjectCard image="residence.webp" />
         </motion.div>
       </motion.section>
 
