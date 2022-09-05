@@ -34,10 +34,11 @@ function Store() {
             <motion.section className='w-full flex flex-col md:grid md:grid-cols-3 justify-center items-center gap-5 md:justify-items-center' >
                 {
                     categories?.map((category, index) => (
-                        <AnchorLink route={`/store/${category.name}`} >
+                        <AnchorLink 
+                            route={`/store/${category.name}`} 
+                            key={`${category.name} ${index}`}>
                             <StoreCard
                                 image={category.mainImage}
-                                key={`${category.name} ${index}`}
                             >
                                 {category.name}
                             </StoreCard>
