@@ -44,7 +44,7 @@ function About() {
             <motion.section className='grid md:grid-cols-2 gap-5 '>
                 <motion.div className='w-full h-40vh  relative overflow-hidden' >
                     <motion.div className='w-full h-full' {...imageAnimate} >
-                        <Image src="/project-pics/fountain.png" alt='Dream pool' layout='fill' className='object-cover' />
+                        <Image src="/project-pics/fountain.webp" alt='Dream pool' layout='fill' className='object-cover' />
                     </motion.div>
                 </motion.div>
                 <motion.div className='w-full flex flex-col justify-center h-full'>

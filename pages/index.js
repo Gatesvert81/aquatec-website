@@ -70,7 +70,7 @@ export default function Home() {
           </motion.div>
         </motion.div>
         <motion.div className='w-full h-full md:h-50vh relative rounded-tr-[15vw] rounded-tl-[15vw] overflow-hidden' {...textAnimate} >
-          <Image src="/project-pics/home-pool.JPG" alt='Dream pool' layout='fill' className='object-cover' />
+          <Image src="/project-pics/home-pool.webp" alt='Dream pool' layout='fill' className='object-cover' />
         </motion.div>
       </motion.main>
 

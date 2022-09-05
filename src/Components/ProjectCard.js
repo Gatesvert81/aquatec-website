@@ -19,7 +19,7 @@ function ProjectCard({ children, image }) {
                 className='w-full h-full'
                 {...imageAnimate}
             >
-                <Image src={`/project-pics/${image}.JPG`} alt='Dream pool' layout='fill' className='object-cover' />
+                <Image src={`/project-pics/${image}`} alt='Dream pool' layout='fill' className='object-cover' />
             </motion.div>
             <AnimatePresence>
                 {

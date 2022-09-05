@@ -27,16 +27,16 @@ function Projects() {
                 </motion.h1>
             </motion.div>
             <main className='grid grid-cols-1 gap-5' >
-                <ProjectCard image="residence" >
+                <ProjectCard image="residence.webp" >
                     Swimming Pool Industry in Ghana. We have since branched out into other areas of the Water Industry such as Industrial and Residential
                 </ProjectCard>
-                <ProjectCard image="house-white" >
+                <ProjectCard image="house-white.webp" >
                     Swimming Pool Industry in Ghana. We have since branched out into other areas of the Water Industry such as Industrial and Residential
                 </ProjectCard>
-                <ProjectCard image="movinpic" >
+                <ProjectCard image="movinpic.webp" >
                     Swimming Pool Industry in Ghana. We have since branched out into other areas of the Water Industry such as Industrial and Residential
                 </ProjectCard>
-                <ProjectCard image="plant-house" >
+                <ProjectCard image="plant-house.webp" >
                     Swimming Pool Industry in Ghana. We have since branched out into other areas of the Water Industry such as Industrial and Residential
                 </ProjectCard>
             </main>
