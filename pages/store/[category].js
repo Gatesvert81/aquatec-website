@@ -131,6 +131,20 @@ function Category({ category }) {
                                 </fieldset>
                                 <fieldset>
                                     <label>
+                                        Type
+                                    </label>
+                                    <select className="form-select appearance-none block  w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" >
+                                        {
+                                            category?.options.map((option, index) => (
+                                                <option value={option} key={index} >
+                                                    {option}
+                                                </option>
+                                            ))
+                                        }
+                                    </select>
+                                </fieldset>
+                                <fieldset>
+                                    <label>
                                         Message
                                     </label>
                                     <textarea type="text" placeholder='Gates Vert' />
