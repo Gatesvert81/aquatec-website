@@ -70,10 +70,10 @@ function About() {
                 <SectionHead>
                     board of Directors
                 </SectionHead>
-                <motion.div className='grid gris-cols-1 md:grid-cols-3 gap-5' >
+                <motion.div className='grid gris-cols-1 md:grid-cols-4 gap-5' >
                     <motion.div className='text-center' {...textAnimate} >
                         <motion.h5>
-                            Dr. Miles Charles
+                            Mr. Sandy Anderson
                         </motion.h5>
                         <motion.h6 className='text-black/60' >
                             Founder, ceo
@@ -81,7 +81,7 @@ function About() {
                     </motion.div>
                     <motion.div className='text-center' {...textAnimate} >
                         <motion.h5>
-                            Mr. William Wain
+                            Mr. Eddy Duplan
                         </motion.h5>
                         <motion.h6 className='text-black/60' >
                             Managing Director
@@ -89,10 +89,18 @@ function About() {
                     </motion.div>
                     <motion.div className='text-center' {...textAnimate} >
                         <motion.h5>
-                            Mrs. Lois Green
+                            Mr. Stuart Anderson
                         </motion.h5>
                         <motion.h6 className='text-black/60' >
-                            General Secretary
+                            General Manager
+                        </motion.h6>
+                    </motion.div>
+                    <motion.div className='text-center' {...textAnimate} >
+                        <motion.h5>
+                            Mrs. Beatrice Opata
+                        </motion.h5>
+                        <motion.h6 className='text-black/60' >
+                            Receptionist
                         </motion.h6>
                     </motion.div>
                 </motion.div>
