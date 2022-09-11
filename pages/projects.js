@@ -27,7 +27,7 @@ function Projects() {
                     Projects
                 </motion.h1>
             </motion.div>
-            <main className='grid grid-cols-1 gap-5' >
+            <main className='grid grid-cols-1 md:grid-cols-2 gap-5' >
                 {
                     projects.map((project, index) => (
                         <ProjectCard image={project.image} key={index} number={index + 1} >
