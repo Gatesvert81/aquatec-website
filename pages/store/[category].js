@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState, useRef } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useRouter } from 'next/router'
 import Page from '../../src/AnimatedComponents/Page'
@@ -7,11 +7,13 @@ import { AnimationContext } from '../../src/Components/Context'
 import categories from '../../src/Assets/Categories'
 import Image from 'next/image'
 import Button from '../../src/Components/Button'
-import StoreCard from '../../src/Components/StoreCard'
+import emailjs from '@emailjs/browser';
 
 function Category({ category }) {
 
     const [order, setOrder] = useState(false)
+    const [viewPhoto, setViewPhoto] = useState(false)
+    const [loading, setLoading] = useState(false)
 
     const { textAnimate, imageAnimate } = useContext(AnimationContext)
 
@@ -23,6 +25,44 @@ function Category({ category }) {
     }, [])
 
     const title = `Store | ${category?.name}`
+
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    setLoading(true)
+    const { user_name, user_email, message, user_tel, product_type, pick_up } = e.target.elements
+
+    console.log({ 
+        user_name : user_name.value, 
+        user_email: user_email.value, 
+        message : message.value, 
+        user_tel : user_tel.value, 
+        product_type : product_type.value,
+        pick_up: pick_up.value 
+    })
+
+    emailjs.sendForm('service_u9r8azm', 'template_jgpngql', form.current, 'B5dAhTyE5fWyrWHnh')
+      .then(() => {
+        setLoading(false)
+        user_name.value = ""
+        user_email.value = ""
+        message.value = ""
+        alert("Thanks for your response!!")
+        setOrder(!order)
+      }, (error) => {
+        setLoading(false)
+        alert(`
+          Email was not sent.
+          Error:
+          ${error.text}
+        `)
+        setOrder(!order)
+      });
+
+
+  };
 
 
     return (
@@ -52,7 +92,10 @@ function Category({ category }) {
                 </motion.p>
             </motion.div>
             <motion.section className='w-full h-fit md:h-50vh grid grid-cols-1 md:grid-cols-2 gap-5' >
-                <motion.div className='w-full h-30vh md:h-full  relative overflow-hidden' >
+                <motion.div
+                    className='w-full h-30vh md:h-full  relative overflow-hidden'
+                    onClick={() => setViewPhoto(!viewPhoto)}
+                >
                     <motion.div className='w-full h-full' {...imageAnimate} >
                         <Image src={`/product-pics/${category?.mainImage}`} alt={category?.name} layout='fill' className='object-cover' />
                     </motion.div>
@@ -108,32 +151,32 @@ function Category({ category }) {
                             }}
                         >
                             <form
-                                className='w-80 h-fit p-5 bg-white rounded-md grid grid-cols-1 gap-2'
-                                onSubmit={(e) => e.preventDefault()}
+                                className={`w-80 h-fit p-5 bg-white rounded-md grid grid-cols-1 gap-2 ${loading ? "after:absolute after:w-full after:h-full after:content-['Sending'] after:text-xl after:font-bold after:bg-white/60 after:flex after:flex-col after:justify-center after:items-center after:top-0 after:left-0" : null}`}
+                                ref={form} onSubmit={sendEmail}
                             >
                                 <fieldset>
                                     <label>
                                         Full Name
                                     </label>
-                                    <input type="text" placeholder='Gates Vert' />
+                                    <input type="text" placeholder='Gates Vert' name="user_name" required readOnly={loading} />
                                 </fieldset>
                                 <fieldset>
                                     <label>
                                         Email
                                     </label>
-                                    <input type="email" placeholder='gatesvert@gmail.com' />
+                                    <input type="email" placeholder='gatesvert@gmail.com' name="user_email" required readOnly={loading} />
                                 </fieldset>
                                 <fieldset>
                                     <label>
                                         Telephone Number
                                     </label>
-                                    <input type="tel" placeholder='054126847' />
+                                    <input type="tel" placeholder='054126847' name="user_tel" required readOnly={loading} />
                                 </fieldset>
                                 <fieldset>
                                     <label>
                                         Type
                                     </label>
-                                    <select className="form-select appearance-none block  w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" >
+                                    <select name="product_type" className="form-select appearance-none block  w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" >
                                         {
                                             category?.options.map((option, index) => (
                                                 <option value={option} key={index} >
@@ -145,14 +188,19 @@ function Category({ category }) {
                                 </fieldset>
                                 <fieldset>
                                     <label>
+                                        Pick up Date
+                                    </label>
+                                    <input type="date" name="pick_up" required readOnly={loading} />
+                                </fieldset>
+                                <fieldset>
+                                    <label>
                                         Message
                                     </label>
-                                    <textarea type="text" placeholder='Gates Vert' />
+                                    <textarea type="text" placeholder='Gates Vert' name="message" required readOnly={loading} />
                                 </fieldset>
                                 <fieldset className='grid grid-cols-1 md:grid-cols-2 gap-2 ' >
                                     <Button
                                         style=" w-full primary-btn"
-                                        click={() => setOrder(!order)}
                                     >
                                         Request Reservation
                                     </Button>
@@ -164,6 +212,32 @@ function Category({ category }) {
                                     </Button>
                                 </fieldset>
                             </form>
+                        </motion.div>
+                    )
+                }
+            </AnimatePresence>
+            <AnimatePresence>
+                {
+                    viewPhoto && (
+                        <motion.div
+                            className='w-full h-full flex flex-col justify-center items-center bg-black/70 rounded-md fixed z-20 top-0 left-0 p-10'
+                            initial={{
+                                opacity: 0,
+                                scale: 0.95
+                            }}
+                            animate={{
+                                opacity: 1,
+                                scale: 1
+                            }}
+                            exit={{
+                                opacity: 0,
+                                scale: 1.05
+                            }}
+                            onClick={() => setViewPhoto(!viewPhoto)}
+                            >
+                            <motion.div className='w-[80vh] h-[80vh] relative' {...imageAnimate} >
+                                <Image src={`/product-pics/${category?.mainImage}`} alt={category?.name} layout='fill' className='object-contain' />
+                            </motion.div>
                         </motion.div>
                     )
                 }

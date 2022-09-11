@@ -5,11 +5,11 @@ export const projects = [
     },
     {
         name: "Commercial Pool Pump Room",
-        image: "pool-pump.jpg"
+        image: "pool-pump.JPG"
     },
     {
         name: "Residential Pool at Trasacco",
-        image: "trasaco.jpg"
+        image: "trasaco.JPG"
     },
     {
         name: "Residential Pool at Labone",
@@ -25,7 +25,7 @@ export const projects = [
     },
     {
         name: "Residential Pool at Airport Residential",
-        image: "airport-pool.jpg"
+        image: "airport-pool.JPG"
     },
     {
         name: "Residential Pool at Labone",

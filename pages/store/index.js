@@ -6,6 +6,14 @@ import { AnimationContext } from '../../src/Components/Context'
 import StoreCard from '../../src/Components/StoreCard'
 import categories from '../../src/Assets/Categories'
 import AnchorLink from '../../src/Components/AnchorLink'
+import algoliasearch from "algoliasearch/lite";
+import { InstantSearch, SearchBox, Hits }
+    from "react-instantsearch-dom";
+
+const searchClient = algoliasearch(
+    "NOTY4T8WCQ",
+    "f9b2f1720e37127c427c246c2d959c55",
+);
 
 function Store() {
 
@@ -23,6 +31,22 @@ function Store() {
                     Store
                 </motion.h1>
             </motion.div>
+            <div className="w-full p-5">
+                <InstantSearch
+                    searchClient={searchClient}
+                    indexName="dev_aquatec_store"
+                >
+
+                    {/* Adding Search Box */}
+                    <SearchBox
+                        searchAsYouType={true}
+                        showLoadingIndicator
+                    />
+
+                    {/* Adding Data */}
+                    <Hits />
+                </InstantSearch>
+            </div>
             <motion.div className='p-10 text-center' >
                 <motion.h4 {...textAnimate} >
                     Categories
@@ -34,8 +58,8 @@ function Store() {
             <motion.section className='w-full flex flex-col md:grid md:grid-cols-3 justify-center items-center gap-5 md:justify-items-center' >
                 {
                     categories?.map((category, index) => (
-                        <AnchorLink 
-                            route={`/store/${category.name}`} 
+                        <AnchorLink
+                            route={`/store/${category.name}`}
                             key={`${category.name} ${index}`}>
                             <StoreCard
                                 image={category.mainImage}

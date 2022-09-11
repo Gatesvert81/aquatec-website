@@ -1,0 +1,452 @@
+[
+    {
+        "category": "Jet Self Primin Pumps",
+        "products": [
+            "DAB JET 102 M (1.0HP) (102660040)",
+            "DAB JET 132 M (1.36HP) (102660100)",
+            "DAB JET 200 M (2.0HP) (102160142)",
+            "DAB JET 300 M (3.0HP) (102160162)"
+        ]
+    },
+    {
+        "category": "Water Pressure Set",
+        "products": [
+            "DAB Aquajet 132 M-G (1.3HP) (60141883)",
+            "DAB JET 82 PRESSURE VESSEL (0.8HP) (102662020)",
+            "DAB JET INOX 82 + PRESSURE VESSEL (0.8HP) (102640020)",
+            "DAB JET 200 M+ PRESSURE VESSEL (2.0HP) (102162182)",
+            "DAB JET 300 M+ PRESSURE VESSEL (3.0HP) (102162192)",
+            "DAB 2 JET 102 M+ PRESSURE VESSELS (1.0HP) (500121140)",
+            "DAB 2 JET 132 M+ PRESSURE VESSELS (1.5HP) (500121160)",
+            "DAB 2 JET 251 M+ PRESSURE VESSELS (2.5HP) (500121100)",
+            "DAB 2K 55/100T PRESSURE VESSEL (3.0HP) (500124620)",
+            "DAB 2K 66/100T+PRESSURE VESSEL (4.0HP) (60179958)",
+            "DAB 2K 90/100T + PRESSURE VESSEL (5.5HP) (60179959)"
+        ]
+    },
+    {
+        "category": "Borehole pump kit",
+        "products": [
+            "CS 4A-12 M + CONTROL (0.5HP) (104100212)",
+            "S4 4/9 (1.0HP) (60197297) + 15M CABLE + CONTROL",
+            "S4 4/14 (1.5HP) (60197298) + 30M CABLE + CONTRO",
+            "S4 4/19 (2.0HP) (60197299) + 40M CABLE + CONTRO",
+            "S4 4/27 (3.0HP) (60197300) + 40M CABLE + CONTROL",
+            "S4D-21T (3.0HP) (504103652)"
+        ]
+    },
+    {
+        "category": "Borehole pump motors",
+        "products": [
+            "0HP (60122774)",
+            "0HP (60122744)"
+        ]
+    },
+    {
+        "category": "Reverse Osmosis Equipment",
+        "products": [
+            "CIP RIG"
+        ]
+    },
+    {
+        "category": "Submersible Pumps",
+        "products": [
+            "DAB NOVA 600 MA (0.75HP) (60152306)",
+            "DAB DRENAG 1000 MA (1.36HP) (103041000) ",
+            "DAB DRENAG 1400 MA (1.5HP) (103010040)",
+            "DAB FEKA VS 750 MA (0.75HP) (103040040)",
+            "DAB FEKA VS 1200 MA (1.60HP) (103045020)",
+            " DAB FEKA VS 1000 (103040080)"
+        ]
+    },
+    {
+        "category": "Centrifugal Pumps",
+        "products": [
+            "DAB K12/200 M (1.0HP) (160168883)",
+            "DAB K20/41 M (0.5HP) (102110004) ",
+            "DAB K 30/70 M (2.5 HP) (1021100162)",
+            "DAB K 36/100 M (1.0HP) (102110024)",
+            "DAB K 36/200 T (3.0HP) (60146040) ",
+            "DAB K 55/200T (5.5 HP) (60146064)",
+            "DAB K 40/400T (7.5HP) (60146093) ",
+            "DAB K 50/400T (10.0HP) (60146100)",
+            "DAB K 35/1200T (15.0HP) (60167628)",
+            "SPERONI CM 32 (1.0HP) ",
+            "SPERONI CM 35 (1.5HP)",
+            "SPERONI CM 45 (2.0HP)",
+            "SPERONI CM 53 (3.0HP)",
+            "SPERONI CM 55 (5.5HP)"
+        ]
+    },
+    {
+        "category": "Control Panel Switches",
+        "products": [
+            "CONTROL E. BOX PLUS D (60163217)",
+            "CONTROL ESIM 1HP (108000130) ",
+            "CONTROL ES3M (108000140) ",
+            "CONROL ESC 4T (UP TO 4 HP) (60149591)",
+            "CONTROL 1HP (SINGLE PHASE) (108003270)",
+            "CONTROL 2.0HP (SINGLE PHASE) (108003290)",
+            "CONTROL 3.0HP (SINGLE PHASE) (108003300) ",
+            "CONTROL ED 75T 7.5T (FEKA 3000/35000/3700) (108320630)",
+            "MAGNETIC SWITCHES (2.0HP)",
+            "MAGNETIC SWITCHES (3.0HP)"
+        ]
+    },
+    {
+        "category": "DAB Spares",
+        "products": [
+            "PRESSURE SWITCH 6 BAR (60110618) ",
+            "PRESSURE SWITCH 12 BAR (60110619)",
+            "PRESSURE GUAGE (002125051)",
+            "ACTIVE CONTROL BOARD",
+            "COMPLETE STAGE JET 151/251 (5245)",
+            "COMPLETE STAGE K 90/100 (5656)",
+            "COMPLETE STAGE K 70/300 (5662)",
+            "COMPLETE STAGE K 55/100 (5651) ",
+            "COMPLETE STAGE K 66/100 (5655)",
+            "COMPLETE STAGE JET 200/300 (5231)",
+            "IMPELLER K 40/400 (7506",
+            "IMPELLER K 36/200 (7499",
+            "IMPELLER K 36/100 (7497)",
+            "IMPELLER K 40/200 (7500)",
+            "IMPELLER K 30/100 (7496) ",
+            "IMPELLER K 55/100 (7501)",
+            "IMPELLER JET 102 (5153)",
+            "IMPELLER JET 112+ ACTIVE 132 (5158)",
+            "IMPELLER JET 82+ ACTIVE 62 +92 (4010)",
+            "DIFUSER JET 82+ 102+112 (4028) ",
+            "DIFUSER ACTIVE 62 (4013)",
+            "DIFUSER ACTIVE 92 + 132 (5164) ",
+            "SEAL K 70/300 (5663)",
+            "SEAL K 40/400 (5586)",
+            "SEAL K 36/100+ K 30/100 (5514)",
+            "SEAL K 66/100+ K 90/100+ K 55/100 (5652)",
+            "SEAL K 55/200+ K 40/200+ K 36/200 (5551)",
+            "SEAL JET 102 (8145)",
+            "SEAL JET 112+ 82+ ACTIVE 62+ 92+ 132 (4547)",
+            "PUMP BODY JET 251/151 ",
+            "CONTROL PANEL 251/151 (60114869)",
+            "PRESSURE TRANSMITTER (60114869)",
+            "INLET MANIFOLD (2 JET 102) (546020010)",
+            "INLET MANIFOLD (2JET 151/251) (546020040) ",
+            "INLET MANIFOLD (2K SETS) (546020070)",
+            "DELIVERY MANIFOLD (2JET 102/151/151) (60116169)",
+            "DELIVERY MANIFOLD (2K SETS) (60116170)",
+            "CAPACITOR (R00010362)",
+            "CONDENSOR (R00010752)"
+        ]
+    },
+    {
+        "category": "Accessories",
+        "products": [
+            "CABLE JOINT KIT",
+            "FLOAT SWITCH SM (159260030)",
+            "FLOAT SWITCH 10M (159269940)",
+            "GWS PRESSURE VESSEL FLOOR MOUNT 10BAR (60141869)",
+            "GWS PRESSURE VESSEL TOP MOUNT 10 BAR (60141867)",
+            "GWS PRESSURE VESSEL TOP MOUNT 16 BAR (60141868)",
+            "VAREM PRESSURE VESSEL FLOOR MOUNT 19L 8BAR (S2019361) VAREM PRESSURE VESSEL TOP MOUNT19L 8BAR (S1019301)",
+            "PROBE",
+            "SMART PRESS WG (1.5HP) (60113308)",
+            "SMART PRESS WG (3.0HP) (60113922)",
+            "3-WAY BRASS CONNECTOR (V50901) SOLLATEK VOLTSHIELD"
+        ]
+    },
+    {
+        "category": "Pool pumps",
+        "products": [
+            "1.0HP DAB EUROSWIM (60118030)",
+            "1.5HP DAB EUROSWIM (60114809) ",
+            "2.0HP DAB EUROSWIM (60118033)",
+            "3.0HP DAB EUROSWIM (60122213)",
+            "1.0 SHP JAZZI (030401)",
+            "2.0HP JAZZI (030402)",
+            "1.0HP ASTRAL VERDON ES PUMP",
+            "1.5HP ASTRAL VERDON ES PUMP ",
+            "2.0HP ASTRAL VERDON ES PUMP",
+            "3.0HP ASTRAL VERDON ES PUMP"
+        ]
+    },
+    {
+        "category": "Filters and Valves",
+        "products": [
+            "18\" JAZZI-(8000 1/hr) SAND 80KG (040218)",
+            "21\" AQUA-(10800 1/hr) SAND 90KG (WS550)",
+            "25\" JAZZI/AQUA (15000 1/hr) SAND 170KG (040225/WS650)",
+            "28\" AQUA-(19500 l/hr) SAND 200KG (WS700B)'",
+            "30\" JAZZI-(21000 l/hr) SAND 210KG (040230)",
+            "36\" JAZZI/AQUA - (32000 l/hr) SAND 400KG (040236/WS900)",
+            "44\" JAZZI (42000 1/hr) SAND 600KG (040244)",
+            "SILICA SAND X 25KG'",
+            "MULTICYCLONE PRE-FILTER"
+        ]
+    },
+    {
+        "category": "Multiport Valve",
+        "products": [
+            "6-WAY MULTIPORT VALVE 1% JAZZI (041715)",
+            "6-WAY MULTIPORT VALVE 2\" ASTRAL (07444) ",
+            "6-WAY MULTIPORT VALVE 2\" JAZZI (071720)"
+        ]
+    },
+    {
+        "category": "PoolFitting and Accessories",
+        "products": [
+            "SURFACE SKIMMER WIDE THROAT JAZZI (021250)",
+            "SURFACE SKIMMER WIDE THROAT ASTRAL (00252)",
+            "DOMESTIC MAIN DRAIN ASTRAL (00258)",
+            "WALL CONDUIT (15658",
+            "WALL CONDUIT (00323",
+            "FLOOR INLET SPREADER (00303)",
+            "INLET SPREADER (00295)",
+            "VACUUM POINT (00301)",
+            "DECK BOX (30825) ",
+            "2-STEP S/STEEL LADDER ASTRAL (05488)",
+            "3-STEP S/STEEL LADDER JAZZI (10103)",
+            "3-STEP S/STEEL LADDER ASTRAL (05489)",
+            "4-STEP S/STEEL LADDER JAZZI (10104)",
+            "4-STEP S/STEEL LADDER ASTRAL (05490)",
+            "5-STEP S/STEEL LADDER JAZZI (10105)",
+            "5-STEP S/STEEL LADDER ASTRAL (05491)",
+            "2-STEP OVERFLOW LADDER ASTRAL (07514)",
+            "3-STEP OVERFLOW LADDER ASTRAL (07515) ",
+            "4-STEP OVERFLOW LADDER ASTRAL (07516)",
+            "5-STEP OVERFLOW LADDER ASTRAL (07517) ",
+            "AUTOMATIC CHLORINATOR (050901)",
+            "STAINLESS STEEL HANDRAIL X 1M",
+            "STAINLESS STEEL HANDRAIL X 2M ",
+            "GRATING TILE (5 PER METRE) (00217)",
+            "CORNER TILE (22380)",
+            "GRATING MODULE (45 PER METRE) (11108)",
+            "GRATING MODULE (45 PER METRE) COLOURED",
+            "FLOATING FOUNTAIN WATERFALL 1.20M (45208)",
+            "POOL ACCESS HANDRAIL (SL-601)",
+            "STARTING PODIUM (27578) (01101)",
+            "LIFEBUOY (011361)"
+        ]
+    },
+    {
+        "category": "Pool and Spa Lighting",
+        "products": [
+            "300W UNDERWATER LIGHT+ NICHE ASTRAL (07844) 300W UNDERWATER LIGHT+ NICHE JAZZI (70105)",
+            "12V TRANSFORMER ASTRAL 300W (71436) 12V TRANSFORMER COVER ASTRAL (00387)",
+            "12V TRANSFORMER JAZZI 300W (070504)",
+            "ASTRAL MINI LED LIGHT (52124)",
+            "126 LED FLAT LIGHT JAZZI (071005) JAZZI SPO100A UNDERWATER LIGHT FLAT",
+            "JAZZI LIGHT 50W/12V/PAR36 (YC43625)",
+            "REMOTE CONTROL + TRANSFORMER (070509)",
+            "35W PAR 56 LED LIGHT (56003)",
+            "LED PUSH BUTTON CONTROL (32458) RECIEVER CONTROL MODULE (27818)",
+            "REMOTE CONTROL (41988)",
+            "LIGHT NICHE (00349)",
+            "300W BULB (K589BX) LED BULB (56001) ASTRAL",
+            "LED BULB+ REMOTE JAZZI",
+            "LED BULB WHITE KOKIDO (LT40CBX/ABX)",
+            "AIR BLOWER DISCONTINUOUS 1.5 HP (031506) ",
+            "AIR BLOWER DISCONTINUOUS 2.0 HP (035107) ",
+            "ASTRAL AIR JET (28460)",
+            "JAZZI AIRJET (021439)",
+            "2\" SKIMMER"
+        ]
+    },
+    {
+        "category": "Fountain Equipment",
+        "products": [
+            "LIGHT MINI LED",
+            "LIGHT 50W 12V",
+            "TRANSFORMER 100W 12V (FOR 2 LIGHTS)",
+            "JUNCTION BOX",
+            "1.5\" CHAMPAGNE FOAM NOZZLE",
+            "1\" CHAMPAGNE FOAM NOZZLE 1%\" FIXED BLOSSOM NOZZLE",
+            "1%½\" SMALL FIXED BLOSSOM NOZZLE",
+            "1½\" FROTHY NOZZLE 1\" FROTHY NOZZLE",
+            "2\" ICE TOWER",
+            "1½\" ICE TOWER",
+            "2\" MUSHROOM NOZZLE",
+            "1%½\" MUSHROOM NOZZLE",
+            "1½\" FAN NOZZLE",
+            "1½\" SILVER TASSLE NOZZLE"
+        ]
+    },
+    {
+        "category": "Stainless Steel Water Features",
+        "products": [
+            "174CM WATER CURTAIN",
+            "60CM SPHERE",
+            "70 CM SPHERE"
+        ]
+    },
+    {
+        "category": "Water Bar",
+        "products": [
+            "6\"/150MM X 15M (W150)",
+            "8\"/200MM X 15M (W200)"
+        ]
+    },
+    {
+        "category": "Chemicals",
+        "products": [
+            "CHLORINE GRANULES 10KG 90%",
+            "CHLIORINE GRANULES 50KG 90%",
+            "CHLORINE TABLETS 10KG 90%",
+            "CHLORINE TABLETS 50KG 90%",
+            "ALGICIDE 5L (11417)",
+            "PH INCREASER 7KG",
+            "PH INCREASER 50KG",
+            "FLOCULANT 10KG",
+            "FLOCULANT 50KG"
+        ]
+    },
+    {
+        "category": "Astra Sprint Pumps Spares",
+        "products": [
+            "PUMP HOUSING (4405010109)",
+            "BASKET (4405010105)",
+            "DIFFUSER (4405010116)",
+            "IMPELLER(1.0HP/1.5PH/2.0HP) (4405010124)",
+            "IMPELLER (3.0HP) (4405010129)",
+            "MECHANICAL SEAL (4415010118) ",
+            "O'RING (4403010304)",
+            "PUMP COVER (4405010202) ",
+            "PUMP COVER NUT (4405010201)"
+        ]
+    },
+    {
+        "category": "Astra Verdom Pump Spares",
+        "products": [
+            "PUMP BASKET (4405010105) ",
+            "O RING (4405010907)",
+            "DIFFUSOR 1-2HP (4405010116)",
+            "DIFFUSOR 3HP (4405010117)",
+            "IMPELLER 1HP (4405010595)",
+            "IMPELLER 1.5HP (4405010597)",
+            "IMPELLER 2HP (4405010599)",
+            "IMPELLER 3HP (4405010902)"
+        ]
+    },
+    {
+        "category": "Jazzi Pump Spares",
+        "products": [
+            "PUMP HOUSING",
+            "BASKET (037006)",
+            "DIFFUSER",
+            "IMPELLER (030604)",
+            "SEAL",
+            "O'RING",
+            "PUMP COVER",
+            "COVER NUT"
+        ]
+    },
+    {
+        "category": "Euroswim pump spares",
+        "products": [
+            "IMPELLER 1.0HP (10338)",
+            "IMPELLER 1.5HP (10375) ",
+            "IMPELLER 2.0HP (10376)",
+            "IMPELLER 3.0HP (10552)",
+            "DIFFUSER 1.5/2.0/3.0HP (10377)",
+            "SEAL 1.0HP(10355)",
+            "SEAL 1.5/2.0/3.0HP (10388)",
+            "COVER",
+            "1.0HP (10358)",
+            "COVER",
+            "1.5/2.0/3.0HP (10397)",
+            "BASKET 1.0HP (10364)",
+            "BASKET 1.5/2.0/3.0HP (10389)",
+            "CAPACITOR 1.0HP (10362) ",
+            "CAPACITOR 1.5HP (10382)",
+            "CAPACITOR 2.0/3.0HP (10383)",
+            "PUMP BODY SMALL (R00010334)",
+            "PUMP BODY LARGE (R00010373) "
+        ]
+    },
+    {
+        "category": "Filter Spares",
+        "products": [
+            "JAZZI LID 25\"",
+            "JAZZI LID 30\"/36\"",
+            "JAZZI DRAIN PLUG",
+            "JAZZI AIR VALVE (042308)"
+        ]
+    },
+    {
+        "category": "Miscellaneous Spares",
+        "products": [
+            "PRESSURE GUAGE",
+            "SKIMMER BASKET (4402010103) ",
+            "SKIMMER LID",
+            "SKIMMER FACE PLATE",
+            "MAIN DRAIN LID",
+            "DECK BOX LID",
+            "LADDER TREAD (4401010203)",
+            "LADDER ANCHOR",
+            "LADDER RUBBER",
+            "LADDER BOLT & NUT (STAINLESS STEEL)",
+            "JAZZI MULTIPORT HANDLE ",
+            "JAZZI MULTIPORT PIN"
+        ]
+    },
+    {
+        "category": "PVC Fitting and Accessories",
+        "products": [
+            "BALL VALVES (07266) ",
+            "BALL VALVES 1\" (07268)",
+            "BALL VALVES 1% (07270)",
+            "BALL VALVES 2\" (07271)",
+            "90 BEND 1% (07141)",
+            "90 BEND 2\" (07142)",
+            "PVC TEE 1% (07171)",
+            "PVC TEE 2 (07172) ",
+            "REDUCER 2\"-1\" (07205) 1",
+            "3 PS. UNION ADAPTOR 1% (07262)",
+            "3 PS. UNION ADAPTOR 2\" (07263)",
+            "3 PS. UNION ADAPTOR 3\" (07264)",
+            "NON-RETURN VALVE 1%\" (09114)",
+            "NON-RETURN VALVE 2\" (33015) ",
+            "PVD FOOT VALVE 1\" (09102)",
+            "PVC FOOT VALVE 1 1/2\" (09104) ",
+            "PVC FOOT VALVE 2\" (09105)",
+            "PVC FOOT VALVE 3\" (09106)",
+            "ADAPTOR SOCKET 1½\" (07195) ",
+            "ADAPTOR SOCKET 2\" (07196)",
+            "JOINT SOCKET 1 1/2\" (07186) ",
+            "JOINT SOCKET 2\" (07187)",
+            "ADAPTOR BUSH 1 1/2\" (07250)",
+            "ADAPTOR BUSH 2\" (07251)",
+            "3 PS. UNION 1\" (07334) ",
+            "3 PS. UNION 1 1/2\" (07336)",
+            "3 PS. UNION 2\" (07337)",
+            "UNION ADAPTOR 1\" (07812)",
+            "PVC SIGHT GLASS 2\" (21083)"
+        ]
+    },
+    {
+        "category": "Tiles and Mosaic Tiles",
+        "products": [
+            "LIGHT BLUE (BOXES) 4804 (48x48) (SHT/BOX.22) 2.06sqm/box",
+            "DARK BLUE (BOXES) 48802 (48x48) (SHT/BOX.22) 2.06sqm/Box",
+            "LARGE LIGHT BLUE (BOXES) 9704 (97x97) (SHT/BOX.22) 2.0sqm/Box",
+            "LARGE DARK BLUE (BOXES) 9707 (97x97SHT/BOX.22) 2.0sqm/Box",
+            "MIXED DARK (BOXES) Y48B02 (SHT/BOX.22) 2.06sqm/box",
+            "MIXED LIGHT (BOXES) Y73805 (SHT/BOX.22) 2.06sqm/box ",
+            "WAVY BOARDER (PCS) 234814 (PCS/BOX.44) PCS",
+            "DIAMONDS (PCS) 234815 (PES/BOX.40) PCS",
+            "ROMANTIC NON-SLIP SURROUND (SQ M) CREAM",
+            "ROMANTIC NON-SLIP SURROUND (SQM) ASH",
+            "ROMANTIC NON-SLIP SURROUND (SQM) LIGHT BROWN",
+            "ROMANTIC NON-SLIP SURROUND (SQM) DARK BROWN",
+            "ROMANTIC NON-SLIP SURROUND (SQM) BLACK",
+            "ROMANTIC LIGHT BLUE (SQM)",
+            "ROMANTIC DARK BLUE (SQ.M) ",
+            "ROMANTIC COPING (PES) YCS",
+            "ROMANTIC COPING (PES) YC4",
+            "ROMANTIC COPING DARK BLUE (PES) YC3",
+            "ROMANTIC COPING LIGHT BLUE (PES) YC3",
+            "EXAGRES GRECIA ROMA BORDER (PES)",
+            "EXAGRES COPING (PES)",
+            "EXAGRES COPING CORNER (PES)",
+            "EXAGRES GRATING EDGE (PES)"
+        ]
+    }
+]
