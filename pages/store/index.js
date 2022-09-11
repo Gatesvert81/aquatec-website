@@ -32,24 +32,24 @@ function Store() {
                     Store
                 </motion.h1>
             </motion.div>
-            <div className="w-full p-5 flex justify-center">
+            {/* <div className="w-full p-5 flex justify-center">
                 <InstantSearch
                     searchClient={searchClient}
                     indexName="dev_aquatec_store"
                 >
                     <div className='w-full grid grid-cols-1' >
-                        {/* Adding Search Box */}
+                        Adding Search Box
                         <CustomSearchBox
                             searchAsYouType={true}
                             showLoadingIndicator
                         />
 
-                        {/* Adding Data */}
+                        Adding Data
                         <CustomHits />
                     </div>
 
                 </InstantSearch>
-            </div>
+            </div> */}
             <motion.div className='p-10 text-center' >
                 <motion.h4 {...textAnimate} >
                     Categories
