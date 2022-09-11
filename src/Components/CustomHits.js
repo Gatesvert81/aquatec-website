@@ -1,19 +1,21 @@
 import React from 'react'
 import { connectHits } from 'react-instantsearch-dom'
+import AnchorLink from './AnchorLink'
 
 function Hits({ hits }) {
     return (
         <div>
             {
                 hits.map((hit) => (
-                    <div 
-                        key={hit.objectID} 
-                        className="w-full h-fit rounded-md p-5"
+                    <AnchorLink route={`/${hit.category}`} >
+                        <div
+                            key={hit.objectID}
+                            className="w-full h-fit rounded-md p-5 cursor-pointer"
                         >
-                        <h4>
-                            Category: {hit.category}
-                        </h4>
-                        <div className="w-full" >
+                            <h4>
+                                Category: {hit.category}
+                            </h4>
+                            {/* <div className="w-full" >
                             {
                                 hit?.products?.map((product, index) => (
                                         <p key={index}>
@@ -21,8 +23,9 @@ function Hits({ hits }) {
                                         </p>
                                 ))
                             }
+                        </div> */}
                         </div>
-                    </div>
+                    </AnchorLink>
                 ))
             }
         </div>
