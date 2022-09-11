@@ -7,9 +7,12 @@ function Hits({ hits }) {
         <div>
             {
                 hits.map((hit, index) => (
-                    <AnchorLink route={`/${hit.category}`} >
+                    <AnchorLink 
+                        route={`/${hit.category}`}
+                        key={`${hit.category} ${index}`}
+                         >
                         <div
-                            key={`${hit.category} ${index}`}
+                            
                             className="w-full h-fit rounded-md p-5 cursor-pointer"
                         >
                             <h4>
