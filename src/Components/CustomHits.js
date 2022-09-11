@@ -15,15 +15,6 @@ function Hits({ hits }) {
                             <h4>
                                 Category: {hit.category}
                             </h4>
-                            {/* <div className="w-full" >
-                            {
-                                hit?.products?.map((product, index) => (
-                                        <p key={index}>
-                                            {product}
-                                        </p>
-                                ))
-                            }
-                        </div> */}
                         </div>
                     </AnchorLink>
                 ))
@@ -31,5 +22,14 @@ function Hits({ hits }) {
         </div>
     )
 }
+// {/* <div className="w-full" >
+//                             {
+//                                 hit?.products?.map((product, index) => (
+//                                         <p key={index}>
+//                                             {product}
+//                                         </p>
+//                                 ))
+//                             }
+//                         </div> */}
 const CustomHits = connectHits(Hits)
 export default CustomHits
