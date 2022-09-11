@@ -37,15 +37,17 @@ function Store() {
                     searchClient={searchClient}
                     indexName="dev_aquatec_store"
                 >
+                    <div className='w-full grid grid-cols-1' >
+                        {/* Adding Search Box */}
+                        <CustomSearchBox
+                            searchAsYouType={true}
+                            showLoadingIndicator
+                        />
 
-                    {/* Adding Search Box */}
-                    <CustomSearchBox
-                        searchAsYouType={true}
-                        showLoadingIndicator
-                    />
+                        {/* Adding Data */}
+                        <CustomHits />
+                    </div>
 
-                    {/* Adding Data */}
-                    <CustomHits />
                 </InstantSearch>
             </div>
             <motion.div className='p-10 text-center' >
