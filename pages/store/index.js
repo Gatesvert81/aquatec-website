@@ -7,8 +7,9 @@ import StoreCard from '../../src/Components/StoreCard'
 import categories from '../../src/Assets/Categories'
 import AnchorLink from '../../src/Components/AnchorLink'
 import algoliasearch from "algoliasearch/lite";
-import { InstantSearch, SearchBox, Hits }
-    from "react-instantsearch-dom";
+import { InstantSearch } from "react-instantsearch-dom";
+import CustomSearchBox from '../../src/Components/Searchbox'
+import CustomHits from '../../src/Components/CustomHits'
 
 const searchClient = algoliasearch(
     "NOTY4T8WCQ",
@@ -31,20 +32,20 @@ function Store() {
                     Store
                 </motion.h1>
             </motion.div>
-            <div className="w-full p-5">
+            <div className="w-full p-5 flex justify-center">
                 <InstantSearch
                     searchClient={searchClient}
                     indexName="dev_aquatec_store"
                 >
 
                     {/* Adding Search Box */}
-                    <SearchBox
+                    <CustomSearchBox
                         searchAsYouType={true}
                         showLoadingIndicator
                     />
 
                     {/* Adding Data */}
-                    <Hits />
+                    <CustomHits />
                 </InstantSearch>
             </div>
             <motion.div className='p-10 text-center' >
