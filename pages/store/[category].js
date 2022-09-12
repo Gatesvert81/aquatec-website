@@ -17,12 +17,7 @@ function Category({ category }) {
 
     const { textAnimate, imageAnimate } = useContext(AnimationContext)
 
-
     const router = useRouter()
-
-    useEffect(() => {
-        console.log(category)
-    }, [])
 
     const title = `Store | ${category?.name}`
 
@@ -33,15 +28,6 @@ function Category({ category }) {
 
     setLoading(true)
     const { user_name, user_email, message, user_tel, product_type, pick_up } = e.target.elements
-
-    console.log({ 
-        user_name : user_name.value, 
-        user_email: user_email.value, 
-        message : message.value, 
-        user_tel : user_tel.value, 
-        product_type : product_type.value,
-        pick_up: pick_up.value 
-    })
 
     emailjs.sendForm('service_u9r8azm', 'template_jgpngql', form.current, 'B5dAhTyE5fWyrWHnh')
       .then(() => {

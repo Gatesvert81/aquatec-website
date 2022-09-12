@@ -19,17 +19,38 @@ const categories = [
         ]
     },
     {
-        name: "Water Pressure Sets",
-        description: "We have in stock wide range of water pressures from DAB, JAZZI and others",
+        name: "Centrifugal Pumps",
+        description: "We have in stock wide range of Centrifugal Pumps from DAB, JAZZI and others",
         mainImage: 'jet-pumps.webp',
         subCategories: [
             {
-                name: "Water Pressure",
+                name: "Centrifugal Pump & Smart Press Automatic device",
                 images: [
-                    'pump-2.webp'
+                    'pump-3.webp'
                 ]
             },
         ],
+        options: [
+            "DAB K12/200 M (1.0HP) (160168883)",
+            "DAB K20/41 M (0.5HP) (102110004) ",
+            "DAB K 30/70 M (2.5 HP) (1021100162)",
+            "DAB K 36/100 M (1.0HP) (102110024)",
+            "DAB K 36/200 T (3.0HP) (60146040) ",
+            "DAB K 55/200T (5.5 HP) (60146064)",
+            "DAB K 40/400T (7.5HP) (60146093) ",
+            "DAB K 50/400T (10.0HP) (60146100)",
+            "DAB K 35/1200T (15.0HP) (60167628)",
+            "SPERONI CM 32 (1.0HP) ",
+            "SPERONI CM 35 (1.5HP)",
+            "SPERONI CM 45 (2.0HP)",
+            "SPERONI CM 53 (3.0HP)",
+            "SPERONI CM 55 (5.5HP)"
+        ]
+    },
+    {
+        name: "Water Pressure Sets ",
+        description: "We have in stock wide range of Water Pressure from DAB, JAZZI and others",
+        mainImage: 'pump-2.webp',
         options: [
             "DAB Aquajet 132 M-G (1.3HP) (60141883)",
             "DAB JET 82 PRESSURE VESSEL (0.8HP) (102662020)",
@@ -241,33 +262,6 @@ const categories = [
             "EXAGRES COPING CORNER (PES)",
             "EXAGRES GRATING EDGE (PES)",
         ]
-    },
-
-    {
-        name: "Water Pressures",
-        description: "Various varieties of DAB water Pressure sets.",
-        mainImage: 'water-pressure.webp',
-        subCategories: [
-            {
-                name: "DAB Water Pressure",
-                images: [
-                    'DAB-pressure.webp'
-                ]
-            },
-            {
-                name: "Jazzi Water Pressure",
-                images: [
-                    'Jazzi-pressure.webp'
-                ]
-            },
-            {
-                name: "Astra Water Pressure",
-                images: [
-                    'Astra-water-pressure.webp'
-                ]
-            },
-        ],
-        options: []
     },
     {
         name: "Chemicals",

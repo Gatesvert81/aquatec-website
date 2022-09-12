@@ -12,7 +12,6 @@ function Hits({ hits }) {
                         key={`${hit.category} ${index}`}
                          >
                         <div
-                            
                             className="w-full h-fit rounded-md p-5 cursor-pointer"
                         >
                             <h4>
