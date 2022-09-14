@@ -20,7 +20,7 @@ export const projects = [
         image: "cantoment-pool.jpg"
     },
     {
-        name: "Hotel Commercial Pool",
+        name: "Hotel Commercial Water Feature",
         image: "commercial-pool.JPG"
     },
     {
