@@ -62,6 +62,7 @@ function Store() {
                                             opacity: 0,
                                             y: "-10%"
                                         }}
+                                        onBlur={() => setSearchFocus(false)}
                                     >
                                         <CustomHits />
                                     </motion.div>

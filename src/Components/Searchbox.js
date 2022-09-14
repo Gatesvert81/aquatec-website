@@ -17,7 +17,6 @@ function Searchbox({ currentRefinement, refine, setSearchFocus }) {
                     type="search"
                     value={currentRefinement}
                     onFocus={() => setSearchFocus(true)}
-                    onBlur={() => setSearchFocus(false)} 
                     className="md:w-full"
                     onChange={(e) => refine(e.currentTarget.value)}
                 />
