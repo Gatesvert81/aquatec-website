@@ -38,7 +38,7 @@ function Contact() {
                     </AdvantageCard>
                     <AdvantageCard icon="phone">
                         <AnchorLink route="tel:+233302768758">
-                            (+233) 302 768758/9
+                            (+233) 302 768 758/ (+233) 544 313 279
                         </AnchorLink>
                     </AdvantageCard>
                     <AdvantageCard icon="fax">
