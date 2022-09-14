@@ -74,7 +74,7 @@ const categories = [
         ]
     },
     {
-        name: "Borehole Pump Ket",
+        name: "Borehole Pump Kits",
         description: "We have different heights of borehole pump kits.",
         mainImage: 'stand-poles.webp',
         subCategories: [
