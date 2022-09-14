@@ -7,6 +7,7 @@ import AdvantageCard from '../src/Components/AdvantageCard'
 import { AnimationContext, NavContext } from '../src/Components/Context'
 import Page from '../src/AnimatedComponents/Page'
 import StoreSection from '../src/Components/StoreSection'
+import AnchorLink from '../src../src/Components/AnchorLink'
 
 function About() {
 
@@ -112,7 +113,9 @@ function About() {
                 <motion.div className='w-full grid grid-cols-1 md:grid-cols-4 gap-5' >
                     <motion.div className='w-full h-32 relative' >
                         <motion.div className='w-full h-full' {...imageAnimate} >
-                            <Image src="/FLUIDRA.png" alt='FLUIDRA' layout='fill' className='object-cover' />
+                            <AnchorLink route="https://www.fluidra.com/" pass target >
+                                <Image src="/FLUIDRA.png" alt='FLUIDRA' layout='fill' className='object-cover' />
+                            </AnchorLink>
                         </motion.div>
                     </motion.div>
                     <motion.div className='w-full h-32 relative' >
