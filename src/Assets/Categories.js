@@ -20,7 +20,7 @@ const categories = [
     },
     {
         name: "Centrifugal Pumps",
-        description: "We have in stock wide range of Centrifugal Pumps from DAB, JAZZI and others",
+        description: "We have in stock wide range of Centrifugal Pumps from DAB and others",
         mainImage: 'jet-pumps.webp',
         subCategories: [
             {
