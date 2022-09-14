@@ -121,7 +121,7 @@ const categories = [
             {
                 name: "Control and switch",
                 images: [
-                    'control-1.webp'
+                    'controls-1.webp'
                 ]
             },
         ],
