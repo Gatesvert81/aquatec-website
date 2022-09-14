@@ -51,6 +51,14 @@ const categories = [
         name: "Water Pressure Sets ",
         description: "We have in stock wide range of Water Pressure from DAB, JAZZI and others",
         mainImage: 'pump-2.webp',
+        subCategories: [
+            {
+                name: "Water Pressure set",
+                images: [
+                    'water-pressure.jpg'
+                ]
+            },
+        ],
         options: [
             "DAB Aquajet 132 M-G (1.3HP) (60141883)",
             "DAB JET 82 PRESSURE VESSEL (0.8HP) (102662020)",

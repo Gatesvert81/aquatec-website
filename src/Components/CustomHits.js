@@ -46,19 +46,14 @@ function Hits({ hits }) {
                 {
                     hits.map((hit, index) => (
                         <React.Fragment key={`${hit.category} ${index}`}>
-                            <AnchorLink
-                                route={`/${hit.category}`}
-                            // key={`${hit.category} ${index}`}
+                            <div
+                                className="w-full h-fit rounded-md p-5 cursor-pointer"
                             >
-                                <div
-                                    className="w-full h-fit rounded-md p-5 cursor-pointer"
-                                >
-                                    <h4
-                                        onClick={() => setOrder(true)}>
-                                        Category: {hit.category}
-                                    </h4>
-                                </div>
-                            </AnchorLink>
+                                <h4
+                                    onClick={() => setOrder(true)}>
+                                    Category: {hit.category}
+                                </h4>
+                            </div>
                             <AnimatePresence>
                                 {
                                     order && (
