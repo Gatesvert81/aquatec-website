@@ -7,7 +7,7 @@ import AdvantageCard from '../src/Components/AdvantageCard'
 import { AnimationContext, NavContext } from '../src/Components/Context'
 import Page from '../src/AnimatedComponents/Page'
 import StoreSection from '../src/Components/StoreSection'
-import AnchorLink from '../src../src/Components/AnchorLink'
+import AnchorLink from '../src/Components/AnchorLink'
 
 function About() {
 
