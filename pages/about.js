@@ -120,17 +120,23 @@ function About() {
                     </motion.div>
                     <motion.div className='w-full h-32 relative' >
                         <motion.div className='w-full h-full' {...imageAnimate} >
-                            <Image src="/FOUNTAIN DIRECT.png" alt='FOUNTAIN DIRECT' layout='fill' className='object-cover' />
+                            <AnchorLink route="https://www.fountaindirect.co.uk/" pass target >
+                                <Image src="/FOUNTAIN DIRECT.png" alt='FOUNTAIN DIRECT' layout='fill' className='object-cover' />
+                            </AnchorLink>
                         </motion.div>
                     </motion.div>
                     <motion.div className='w-full h-32 relative' >
                         <motion.div className='w-full h-full' {...imageAnimate} >
-                            <Image src="/Topturf_logo_RGB.jpg" alt='Topturf' layout='fill' className='object-contain' />
+                            <AnchorLink route="https://www.ttirrigation.co.uk/" pass target >
+                                <Image src="/Topturf_logo_RGB.jpg" alt='Topturf' layout='fill' className='object-contain' />
+                            </AnchorLink>
                         </motion.div>
                     </motion.div>
                     <motion.div className='w-full h-32 relative' >
                         <motion.div className='w-full h-full' {...imageAnimate} >
-                            <Image src="/DAB.png" alt='DAB' layout='fill' className='object-contain' />
+                            <AnchorLink route="https://www.dabpumps.com/en" pass target >
+                                <Image src="/DAB.png" alt='DAB' layout='fill' className='object-contain' />
+                            </AnchorLink>
                         </motion.div>
                     </motion.div>
                 </motion.div>
