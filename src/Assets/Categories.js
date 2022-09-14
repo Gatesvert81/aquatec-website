@@ -22,14 +22,14 @@ const categories = [
         name: "Centrifugal Pumps",
         description: "We have in stock wide range of Centrifugal Pumps from DAB and others",
         mainImage: 'jet-pumps.webp',
-        subCategories: [
-            {
-                name: "Centrifugal Pump & Smart Press Automatic device",
-                images: [
-                    'pump-3.webp'
-                ]
-            },
-        ],
+//         subCategories: [
+//             {
+//                 name: "Centrifugal Pump & Smart Press Automatic device",
+//                 images: [
+//                     'pump-3.webp'
+//                 ]
+//             },
+//         ],
         options: [
             "DAB K12/200 M (1.0HP) (160168883)",
             "DAB K20/41 M (0.5HP) (102110004) ",
