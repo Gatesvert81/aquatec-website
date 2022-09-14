@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import React, { useContext } from 'react'
-import { motion } from 'framer-motion'
+import React, { useContext, useState } from 'react'
+import { AnimatePresence, motion } from 'framer-motion'
 import Page from '../../src/AnimatedComponents/Page'
 import { AnimationContext } from '../../src/Components/Context'
 import StoreCard from '../../src/Components/StoreCard'
@@ -18,6 +18,8 @@ const searchClient = algoliasearch(
 
 function Store() {
 
+    const [searchFocus, setSearchFocus] = useState(false)
+
     const { textAnimate } = useContext(AnimationContext)
 
     return (
@@ -32,24 +34,44 @@ function Store() {
                     Store
                 </motion.h1>
             </motion.div>
-            {/* <div className="w-full p-5 flex justify-center">
+            <div className="w-full p-5 flex justify-center">
                 <InstantSearch
                     searchClient={searchClient}
                     indexName="dev_aquatec_store"
                 >
                     <div className='w-full grid grid-cols-1' >
-                        Adding Search Box
                         <CustomSearchBox
                             searchAsYouType={true}
                             showLoadingIndicator
+                            setSearchFocus={setSearchFocus}
                         />
-
-                        Adding Data
-                        <CustomHits />
+                        <AnimatePresence>
+                            {
+                                searchFocus && (
+                                    <motion.div
+                                        className="w-full h-fit p-5 rounded-md border-2 border-gray-300 shadow-md"
+                                        initial={{
+                                            opacity: 0,
+                                            y: "-10%"
+                                        }}
+                                        animate={{
+                                            opacity: 1,
+                                            y: "0%"
+                                        }}
+                                        exit={{
+                                            opacity: 0,
+                                            y: "-10%"
+                                        }}
+                                    >
+                                        <CustomHits />
+                                    </motion.div>
+                                )
+                            }
+                        </AnimatePresence>
                     </div>
 
                 </InstantSearch>
-            </div> */}
+            </div>
             <motion.div className='p-10 text-center' >
                 <motion.h4 {...textAnimate} >
                     Categories

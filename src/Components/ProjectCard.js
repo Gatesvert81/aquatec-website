@@ -7,9 +7,9 @@ function ProjectCard({ children, image, number }) {
     const { imageAnimate } = useContext(AnimationContext)
 
     return (
-        <motion.div className='w-full h-30vh md:h-60vh relative overflow-hidden '  >
+        <motion.div className='w-full h-30vh md:h-60vh relative overflow-hidden bg-gray-400 '  >
             <motion.div
-                className='w-full h-full'
+                className='w-full h-full bg-gray-300'
                 {...imageAnimate}
             >
                 <Image src={`/project-pics/${image}`} alt='Dream pool' layout='fill' className='object-cover' />
