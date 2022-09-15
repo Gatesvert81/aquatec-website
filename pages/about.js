@@ -96,14 +96,6 @@ function About() {
                             General Manager
                         </motion.h6>
                     </motion.div>
-                    <motion.div className='text-center' {...textAnimate} >
-                        <motion.h5>
-                            Mrs. Beatrice Opata
-                        </motion.h5>
-                        <motion.h6 className='text-black/60' >
-                            Receptionist
-                        </motion.h6>
-                    </motion.div>
                 </motion.div>
             </motion.section>
             <motion.section>
