@@ -21,7 +21,7 @@ const categories = [
     {
         name: "Centrifugal Pumps",
         description: "We have in stock wide range of Centrifugal Pumps from DAB and others",
-        mainImage: 'jet-pumps.webp',
+        mainImage: 'dab-centrifugal.webp',
 //         subCategories: [
 //             {
 //                 name: "Centrifugal Pump & Smart Press Automatic device",
@@ -48,7 +48,7 @@ const categories = [
         ]
     },
     {
-        name: "Water Pressure Sets ",
+        name: "Water Pressure Sets",
         description: "We have in stock wide range of Water Pressure from DAB, JAZZI and others",
         mainImage: 'pump-2.webp',
         subCategories: [
