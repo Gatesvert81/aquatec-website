@@ -83,7 +83,7 @@ function Category({ category }) {
                     onClick={() => setViewPhoto(!viewPhoto)}
                 >
                     <motion.div className='w-full h-full' {...imageAnimate} >
-                        <Image src={`/product-pics/${category?.mainImage}`} alt={category?.name} layout='fill' className='object-cover' />
+                        <Image src={`/product-pics/${category?.mainImage}`} alt={category?.name} layout='fill' className='object-contain' />
                     </motion.div>
                 </motion.div>
                 <motion.div className='flex flex-col gap-5' >
