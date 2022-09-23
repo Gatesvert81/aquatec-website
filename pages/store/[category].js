@@ -109,7 +109,7 @@ function Category({ category }) {
                             {...textAnimate}
                             key={`${subcategory.name} ${index}`}>
                             <motion.div className='w-full h-4/5 relative' {...imageAnimate} >
-                                <Image src={`/product-pics/${subcategory.images[0]}`} alt='Dream pool' layout='fill' className='object-cover' />
+                                <Image src={`/product-pics/${subcategory.images[0]}`} alt='Dream pool' layout='fill' className='object-contain' />
                             </motion.div>
                             <motion.h6>
                                 {subcategory.name}
@@ -182,7 +182,7 @@ function Category({ category }) {
                                     <label>
                                         Message
                                     </label>
-                                    <textarea type="text" placeholder='Gates Vert' name="message" required readOnly={loading} />
+                                    <textarea type="text" placeholder='I will like to pick it up at 11 AM' name="message" required readOnly={loading} />
                                 </fieldset>
                                 <fieldset className='grid grid-cols-1 md:grid-cols-2 gap-2 ' >
                                     <Button
