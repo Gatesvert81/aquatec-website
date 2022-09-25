@@ -71,7 +71,7 @@ function About() {
                 <SectionHead>
                     board of Directors
                 </SectionHead>
-                <motion.div className='grid gris-cols-1 md:grid-cols-4 gap-5' >
+                <motion.div className='grid gris-cols-1 md:grid-cols-3 gap-5' >
                     <motion.div className='text-center' {...textAnimate} >
                         <motion.h5>
                             Mr. Sandy Anderson
@@ -112,8 +112,8 @@ function About() {
                     </motion.div>
                     <motion.div className='w-full h-32 relative' >
                         <motion.div className='w-full h-full' {...imageAnimate} >
-                            <AnchorLink route="https://www.fountaindirect.co.uk/" pass target >
-                                <Image src="/FOUNTAIN DIRECT.png" alt='FOUNTAIN DIRECT' layout='fill' className='object-cover' />
+                            <AnchorLink route="https://www.fountains-direct.co.uk/" pass target >
+                                <Image src="/fountains-direct.png" alt='FOUNTAINS DIRECT' layout='fill' className='object-cover' />
                             </AnchorLink>
                         </motion.div>
                     </motion.div>
