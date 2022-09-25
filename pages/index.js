@@ -7,6 +7,7 @@ import Page from "../src/AnimatedComponents/Page";
 import { AnimationContext, NavContext } from "../src/Components/Context";
 
 const Button = dynamic(() => import("../src/Components/Button"));
+const Video = dynamic(() => import("../src/Components/Video"));
 const ChooseCard = dynamic(() => import("../src/Components/ChooseCard"));
 const ProjectCard = dynamic(() => import("../src/Components/ProjectCard"));
 const ReviewSection = dynamic(() => import("../src/Components/ReviewSection"));
@@ -26,11 +27,17 @@ export default function Home() {
     <Page>
       <Head>
         <title>Aquatec | Home</title>
-        <meta name="description" content="Aquatec Services Limited- Swimming pool construction and equipment sales center" />
-        <meta name="keywords" content="Aquatec Services Limited, Swimming pool construction, Pool services,Swimming pool equipments shop, DAB Equipments" />
+        <meta
+          name="description"
+          content="Aquatec Services Limited- Swimming pool construction and equipment sales center"
+        />
+        <meta
+          name="keywords"
+          content="Aquatec Services Limited, Swimming pool construction, Pool services,Swimming pool equipments shop, DAB Equipments"
+        />
         <link rel="icon" href="/icons/logo.png" />
       </Head>
-     
+
       <motion.main
         layout
         className="h-screen pt-20 md:px-10 lg:px-20 pb-10 flex flex-col gap-10 justify-start md:justify-center items-center bg-dark-blue text-white"
@@ -136,40 +143,7 @@ export default function Home() {
         </motion.div>
       </motion.section>
 
-      <motion.section className="w-full h-fit relative">
-        <video
-          autoPlay
-          muted
-          loop
-          id="myVideo"
-          className="w-full h-full relative"
-        >
-          <source
-            src="video/aquatec video.mp4"
-            type="video/mp4"
-            className="w-full h-full"
-          />
-          <div>
-            <p>Play</p>
-          </div>
-        </video>
-        {/* <motion.div className='w-full h-full'
-          initial={{
-            opacity: 0,
-            scale: 0.9
-          }}
-          whileInView={{
-            opacity: 1,
-            scale: 1
-          }}
-          transition={{
-            default: {
-              duration: 0.5
-            }
-          }}>
-          <Image src="/project-pics/stuart.jpg" alt='Dream pool' layout='fill' className='object-cover' />
-        </motion.div> */}
-      </motion.section>
+      <Video />
 
       <ReviewSection />
     </Page>
