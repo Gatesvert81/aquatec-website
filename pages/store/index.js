@@ -10,8 +10,8 @@ import CustomHits from '../../src/Components/CustomHits'
 import categories from '../../src/Assets/Categories'
 import algoliasearch from "algoliasearch/lite";
 
-const StoreCard = dynamic(() => import("../src/Components/StoreCard"));
-const AnchorLink = dynamic(() => import("../src/Components/AnchorLink"));
+const StoreCard = dynamic(() => import("../../src/Components/StoreCard"));
+const AnchorLink = dynamic(() => import("../../src/Components/AnchorLink"));
 
 const searchClient = algoliasearch(
     "NOTY4T8WCQ",
