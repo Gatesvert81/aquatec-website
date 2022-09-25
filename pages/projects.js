@@ -1,11 +1,12 @@
 import React, { useContext, useEffect } from 'react'
 import Head from 'next/head'
+import dynamic from "next/dynamic";
 import { motion } from 'framer-motion'
-import ProjectCard from '../src/Components/ProjectCard'
 import { NavContext } from '../src/Components/Context'
 import Page from '../src/AnimatedComponents/Page'
 import { projects } from '../src/Assets/projects'
 
+const ProjectCard = dynamic(() => import("../src/Components/ProjectCard"));
 
 function Projects() {
 

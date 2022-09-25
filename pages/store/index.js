@@ -1,15 +1,20 @@
-import Head from 'next/head'
 import React, { useContext, useState } from 'react'
+import Head from 'next/head'
+import dynamic from "next/dynamic";
 import { AnimatePresence, motion } from 'framer-motion'
 import Page from '../../src/AnimatedComponents/Page'
 import { AnimationContext } from '../../src/Components/Context'
-import StoreCard from '../../src/Components/StoreCard'
-import categories from '../../src/Assets/Categories'
-import AnchorLink from '../../src/Components/AnchorLink'
-import algoliasearch from "algoliasearch/lite";
 import { InstantSearch } from "react-instantsearch-dom";
 import CustomSearchBox from '../../src/Components/Searchbox'
 import CustomHits from '../../src/Components/CustomHits'
+import categories from '../../src/Assets/Categories'
+import algoliasearch from "algoliasearch/lite";
+
+const StoreCard = dynamic(() => import("../src/Components/StoreCard"));
+const AnchorLink = dynamic(() => import("../src/Components/AnchorLink"));
+
+import StoreCard from '../../src/Components/StoreCard'
+import AnchorLink from '../../src/Components/AnchorLink'
 
 const searchClient = algoliasearch(
     "NOTY4T8WCQ",
