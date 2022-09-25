@@ -13,9 +13,6 @@ import algoliasearch from "algoliasearch/lite";
 const StoreCard = dynamic(() => import("../src/Components/StoreCard"));
 const AnchorLink = dynamic(() => import("../src/Components/AnchorLink"));
 
-import StoreCard from '../../src/Components/StoreCard'
-import AnchorLink from '../../src/Components/AnchorLink'
-
 const searchClient = algoliasearch(
     "NOTY4T8WCQ",
     "f9b2f1720e37127c427c246c2d959c55",
