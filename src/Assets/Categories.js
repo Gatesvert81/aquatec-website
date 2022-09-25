@@ -49,7 +49,7 @@ const categories = [
     },
     {
         name: "Water Pressure Sets",
-        description: "We have in stock wide range of Water Pressure from DAB, JAZZI and others",
+        description: "We have in stock wide range of Water Pressure from DAB and others",
         mainImage: 'dab-water-2.png',
         subCategories: [
             {
