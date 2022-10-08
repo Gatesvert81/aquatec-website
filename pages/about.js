@@ -141,6 +141,18 @@ function About() {
           </motion.div>
           <motion.div className="w-full h-32 relative">
             <motion.div className="w-full h-full" {...imageAnimate}>
+              <AnchorLink route="https://www.astralpool.com/" pass target>
+                <Image
+                  src="/astral logo.png"
+                  alt="Astral Poo"
+                  layout="fill"
+                  className="object-contain"
+                />
+              </AnchorLink>
+            </motion.div>
+          </motion.div>
+          <motion.div className="w-full h-32 relative">
+            <motion.div className="w-full h-full" {...imageAnimate}>
               <AnchorLink route="https://www.ttirrigation.co.uk/" pass target>
                 <Image
                   src="/Topturf_logo_RGB.jpg"

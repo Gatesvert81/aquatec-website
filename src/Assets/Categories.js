@@ -273,7 +273,7 @@ const categories = [
     },
     {
         name: "Chemicals",
-        description: "Pool chemicals in tablets , powders.",
+        description: "Pool chemicals ",
         mainImage: 'chemicals.webp',
         options: [
             "CHLORINE GRANULES 10KG 90%",
