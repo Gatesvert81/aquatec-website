@@ -8,15 +8,15 @@ export const projects = [
         image: "pool-pump.JPG"
     },
     {
-        name: "Residential Pool at Trasacco",
+        name: "Residential Pool in Trasacco",
         image: "trasaco.JPG"
     },
     {
-        name: "Residential Pool at Labone",
+        name: "Residential Pool in Labone",
         image: "labone-pool.jpg"
     },
     {
-        name: "Residential Pool at Cantoment",
+        name: "Residential Pool in Cantoment",
         image: "cantoment-pool.jpg"
     },
     {
@@ -24,19 +24,19 @@ export const projects = [
         image: "commercial-pool.JPG"
     },
     {
-        name: "Residential Pool at Airport Residential",
+        name: "Residential Pool in Airport Residential",
         image: "airport-pool.JPG"
     },
     {
-        name: "Residential Pool at Labone",
+        name: "Residential Pool in Labone",
         image: "labone-pool-2.jpg"
     },
     {
-        name: "Residential Pool at Airport Residential",
+        name: "Residential Pool in Airport Residential",
         image: "residence.webp"
     },
     {
-        name: "Residential Pool ",
+        name: "Residential Pool in Lashibi",
         image: "stuart.jpg"
     },
 ]

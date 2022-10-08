@@ -83,7 +83,7 @@ function About() {
         <motion.div className="w-full h-40vh  relative overflow-hidden">
           <motion.div className="w-full h-full" {...imageAnimate}>
             <Image
-              src="/project-pics/movinpic-small.JPG"
+              src="/project-pics/cantoment-pool.jpg"
               alt="Dream pool"
               layout="fill"
               className="object-cover"
