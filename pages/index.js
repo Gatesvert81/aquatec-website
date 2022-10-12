@@ -113,7 +113,7 @@ export default function Home() {
             and always available for you to purchase.
           </ChooseCard>
           <ChooseCard number="03" title="Quality Assurance">
-            In partner with top quality brands such as DAB, Fountains Direct and
+            In partner with top quality brands such as DAB, Fountains Direct, Astral Pool and
             many others, we ensure our pools do not only last long but also feel
             fresh and new everytime you take a swim in it.
           </ChooseCard>
