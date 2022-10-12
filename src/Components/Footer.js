@@ -1,16 +1,16 @@
 import React, { useContext } from "react";
 import Button from "./Button";
-import Logo from "./Logo";
 import Image from "next/image";
 import AnchorLink from "./AnchorLink";
 import { NavContext } from "./Context";
+import FooterLogo from "./FooterLogo";
 
 function Footer() {
   const [page, setPage] = useContext(NavContext);
   return (
     <footer className="w-full h-fit bg-dark-blue flex flex-col md:flex-row gap-3 justify-center items-center p-10 text-white">
       <div className="">
-        <Logo />
+        <FooterLogo />
       </div>
       <div className="w-full md:fit flex md:flex-col justify-center md:items-center gap-2">
         <AnchorLink route="/">
@@ -56,10 +56,9 @@ function Footer() {
       </div>
       <div>
         <div className="text-center capitalize">
-          <h6 className="capitalize font-medium">Abelemkpe, Ghana</h6>
-          <h6 className="capitalize font-medium">
-            94, swaniker street GA-092-9410
-          </h6>
+          <h6 className="capitalize font-medium">94, Swaniker Street</h6>
+          <h6 className="capitalize font-medium">GA-092-9410</h6>
+          <h6 className="capitalize font-medium">Abelemkpe, Accra Ghana</h6>
           <h6 className="capitalize font-medium flex flex-col">
             <span>(+233) 302 768 758</span>
             <span>(+233) 544 313 279</span>

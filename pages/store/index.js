@@ -80,7 +80,7 @@ function Store() {
                     Categories
                 </motion.h4>
                 <motion.p>
-                    Checkout Our store and Reserve equipments you want to buy.
+                    Checkout our store and reserve equipment you want to buy.
                 </motion.p>
             </motion.div>
             <motion.section className='w-full flex flex-col md:grid md:grid-cols-3 justify-center items-center gap-5 md:justify-items-center' >

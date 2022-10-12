@@ -114,7 +114,7 @@ const categories = [
         ]
     },
     {
-        name: "Control Panel and Switches",
+        name: "Control Panels and Switches",
         description: "Long lasting control panels and switches.",
         mainImage: 'control-switches.webp',
         subCategories: [
@@ -139,7 +139,7 @@ const categories = [
         ]
     },
     {
-        name: "Filter and Valves",
+        name: "Filters and Valves",
         description: "We offer various range of sizes of filters and valves.",
         mainImage: 'filter-valves.webp',
         subCategories: [
@@ -166,7 +166,7 @@ const categories = [
         ]
     },
     {
-        name: "PVC Fitting & Accesories",
+        name: "PVC Fittings & Accessories",
         description: "We have PVC Fittings",
         mainImage: 'pipes.webp',
         options: [
@@ -202,7 +202,7 @@ const categories = [
         ]
     },
     {
-        name: "Lights",
+        name: "Pool Lights",
         description: "Various sizes of colorful bright lights for your pool.",
         mainImage: 'lights.webp',
         options: [
@@ -272,7 +272,7 @@ const categories = [
         ]
     },
     {
-        name: "Chemicals",
+        name: "Swimming Pool Chemicals",
         description: "Pool chemicals ",
         mainImage: 'chemicals.webp',
         options: [
@@ -289,8 +289,8 @@ const categories = [
     },
 
     {
-        name: "Accesories",
-        description: "Pool maintenance equipments for cleaning, and keeping your pool fresh at al times..",
+        name: "Pool Accessories",
+        description: "Pool maintenance equipment for cleaning, and keeping your pool fresh at al times.",
         mainImage: 'all-accesories.webp',
         subCategories: [
             {
