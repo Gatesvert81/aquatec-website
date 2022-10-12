@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { useContext, useEffect } from "react";
 import Page from "../src/AnimatedComponents/Page";
 import { AnimationContext, NavContext } from "../src/Components/Context";
+import Carousel from "../src/Components/Carousel";
 
 const Button = dynamic(() => import("../src/Components/Button"));
 const Video = dynamic(() => import("../src/Components/Video"));
@@ -78,16 +79,28 @@ export default function Home() {
           </motion.div>
         </motion.div>
         <motion.div
-          className="w-full h-full md:h-50vh relative rounded-tr-[15vw] rounded-tl-[15vw] overflow-hidden"
+          className="w-full h-full md:h-50vh relative rounded-tr-[15vw] rounded-tl-[15vw] overflow-hidden grid grid-cols-2 "
           {...textAnimate}
         >
-          <Image
-            src="/project-pics/home-pool.webp"
-            priority={true}
-            alt="Dream pool"
-            layout="fill"
-            className="object-cover"
-          />
+          {/* <Carousel /> */}
+          <div className="w-full h-full relative">
+            <Image
+              src="/project-pics/home-pool.webp"
+              priority={true}
+              alt="Dream pool"
+              layout="fill"
+              className="object-cover"
+            />
+          </div>
+          <div className="w-full h-full relative">
+            <Image
+              src="/product-pics/water-pressure.jpg"
+              priority={true}
+              alt="Dream pool"
+              layout="fill"
+              className="object-cover"
+            />
+          </div>
         </motion.div>
       </motion.main>
 
@@ -113,9 +126,9 @@ export default function Home() {
             and always available for you to purchase.
           </ChooseCard>
           <ChooseCard number="03" title="Quality Assurance">
-            In partner with top quality brands such as DAB, Fountains Direct, Astral Pool and
-            many others, we ensure our pools do not only last long but also feel
-            fresh and new everytime you take a swim in it.
+            In partner with top quality brands such as DAB, Fountains Direct,
+            Astral Pool and many others, we ensure our pools do not only last
+            long but also feel fresh and new everytime you take a swim in it.
           </ChooseCard>
           <ChooseCard number="04" title="Professionality">
             Our expertise are not only qualified but capable to give you the
