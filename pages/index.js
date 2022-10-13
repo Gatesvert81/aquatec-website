@@ -92,13 +92,13 @@ export default function Home() {
               className="object-cover"
             />
           </div>
-          <div className="w-full h-full relative">
+          <div className="w-full h-full bg-white relative">
             <Image
               src="/product-pics/water-pressure.jpg"
               priority={true}
               alt="Dream pool"
               layout="fill"
-              className="object-cover"
+              className="object-contain"
             />
           </div>
         </motion.div>
