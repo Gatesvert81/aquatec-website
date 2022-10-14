@@ -73,7 +73,7 @@ export default function Home() {
             </motion.p>
             <motion.div className="w-full flex justify-between gap-2 items-center">
               <motion.h4 {...textAnimate}>
-                350+ Projects to satisfied clients
+                350+ Projects for satisfied clients
               </motion.h4>
             </motion.div>
           </motion.div>
