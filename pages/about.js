@@ -6,6 +6,7 @@ import Image from "next/image";
 import { AnimationContext, NavContext } from "../src/Components/Context";
 import Page from "../src/AnimatedComponents/Page";
 
+const AgencySection = dynamic(() => import("../src/Components/AgencySection"))
 const SectionHead = dynamic(() => import("../src/Components/SectionHead"));
 const AdvantageCard = dynamic(() => import("../src/Components/AdvantageCard"));
 const AnchorLink = dynamic(() => import("../src/Components/AnchorLink"));
@@ -110,75 +111,7 @@ function About() {
           </motion.div>
         </motion.div>
       </motion.section>
-      <motion.section>
-        <SectionHead>our Agencies</SectionHead>
-        <motion.div className="w-full grid grid-cols-1 md:grid-cols-5 gap-5">
-          <motion.div className="w-full h-32 relative">
-            <motion.div className="w-full h-full" {...imageAnimate}>
-              <AnchorLink route="https://www.astralpool.com/" pass target>
-                <Image
-                  src="/astral logo.png"
-                  alt="Astral Poo"
-                  layout="fill"
-                  className="object-contain"
-                />
-              </AnchorLink>
-            </motion.div>
-          </motion.div>
-          <motion.div className="w-full h-32 relative">
-            <motion.div className="w-full h-full" {...imageAnimate}>
-              <AnchorLink route="https://www.fluidra.com/" pass target>
-                <Image
-                  src="/FLUIDRA.png"
-                  alt="FLUIDRA"
-                  layout="fill"
-                  className="object-contain"
-                />
-              </AnchorLink>
-            </motion.div>
-          </motion.div>
-          <motion.div className="w-full h-32 relative">
-            <motion.div className="w-full h-full" {...imageAnimate}>
-              <AnchorLink route="https://www.dabpumps.com/en" pass target>
-                <Image
-                  src="/DAB.png"
-                  alt="DAB"
-                  layout="fill"
-                  className="object-contain"
-                />
-              </AnchorLink>
-            </motion.div>
-          </motion.div>
-          <motion.div className="w-full h-32 relative">
-            <motion.div className="w-full h-full" {...imageAnimate}>
-              <AnchorLink
-                route="https://www.fountains-direct.co.uk/"
-                pass
-                target
-              >
-                <Image
-                  src="/fountains-direct.png"
-                  alt="FOUNTAINS DIRECT"
-                  layout="fill"
-                  className="object-contain"
-                />
-              </AnchorLink>
-            </motion.div>
-          </motion.div>
-          <motion.div className="w-full h-32 relative">
-            <motion.div className="w-full h-full" {...imageAnimate}>
-              <AnchorLink route="https://www.ttirrigation.co.uk/" pass target>
-                <Image
-                  src="/Topturf_logo_RGB.jpg"
-                  alt="Topturf"
-                  layout="fill"
-                  className="object-contain"
-                />
-              </AnchorLink>
-            </motion.div>
-          </motion.div>
-        </motion.div>
-      </motion.section>
+     <AgencySection /> 
       <StoreSection />
       <section>
         <SectionHead>Come visit us</SectionHead>

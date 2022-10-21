@@ -6,6 +6,8 @@ import { useContext, useEffect } from "react";
 import Page from "../src/AnimatedComponents/Page";
 import { AnimationContext, NavContext } from "../src/Components/Context";
 
+
+const AgencySection = dynamic(() => import("../src/Components/AgencySection"))
 const Button = dynamic(() => import("../src/Components/Button"));
 const Video = dynamic(() => import("../src/Components/Video"));
 const ChooseCard = dynamic(() => import("../src/Components/ChooseCard"));
@@ -128,6 +130,7 @@ export default function Home() {
           </ChooseCard>
         </motion.div>
       </motion.section>
+      <AgencySection />
       <StoreSection />
       <motion.section className="w-full flex flex-col  gap-5">
         <motion.div className="w-full flex flex-col md:flex-row justify-between items-center">
