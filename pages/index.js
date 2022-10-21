@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { useContext, useEffect } from "react";
 import Page from "../src/AnimatedComponents/Page";
 import { AnimationContext, NavContext } from "../src/Components/Context";
-import Carousel from "../src/Components/Carousel";
 
 const Button = dynamic(() => import("../src/Components/Button"));
 const Video = dynamic(() => import("../src/Components/Video"));
@@ -56,14 +55,13 @@ export default function Home() {
             className="text-center text-4xl uppercase md:text-left"
             {...textAnimate}
           >
-            build your dream pool with a new experience
+            Everything Swimming Pools and water pumps
           </motion.h1>
           <motion.div>
             <motion.h3 {...textAnimate}>About Us</motion.h3>
             <motion.p {...textAnimate}>
               <span>
-                Aquatec has constructed quality swimming pools for homes and
-                institutions in Ghana since 1976.
+                Aquatec is a leader in the water industry selling residential and industrial water pumps.
               </span>
               <span className="hidden md:block">
                 Additionally, Aquatec is a water industry leader with its
@@ -73,7 +71,7 @@ export default function Home() {
             </motion.p>
             <motion.div className="w-full flex justify-between gap-2 items-center">
               <motion.h4 {...textAnimate}>
-                350+ Projects to satisfied clients
+                350 + Projects completed for satisfied clients
               </motion.h4>
             </motion.div>
           </motion.div>
@@ -82,7 +80,6 @@ export default function Home() {
           className="w-full h-full md:h-50vh relative rounded-tr-[15vw] rounded-tl-[15vw] overflow-hidden grid grid-cols-2 "
           {...textAnimate}
         >
-          {/* <Carousel /> */}
           <div className="w-full h-full relative">
             <Image
               src="/project-pics/home-pool.webp"
@@ -118,21 +115,16 @@ export default function Home() {
           }}
         >
           <ChooseCard number="01" title="The best price">
-            Because of our affordable prices, we are never knowingly undersold.
-            We will always match any Price.
+            Our prices are affordable and competitive.
           </ChooseCard>
           <ChooseCard number="02" title="Reliable">
-            Our shelves are always stocked with the quality materials you need
-            and always available for you to purchase.
+            Our showroom and warehouses are always well stocked.
           </ChooseCard>
           <ChooseCard number="03" title="Quality Assurance">
-            In partner with top quality brands such as DAB, Fountains Direct,
-            Astral Pool and many others, we ensure our pools do not only last
-            long but also feel fresh and new everytime you take a swim in it.
+            Our partnership with top brands like Astral Pool, DAB, Fountains Direct and others, ensures that our products are of top quality.
           </ChooseCard>
           <ChooseCard number="04" title="Professionality">
-            Our expertise are not only qualified but capable to give you the
-            right advice for our DIY ( Do It Yourself ) customers.
+            Our experts are not only qualified and capable in giving good advise to our DIY (Do It Yourself) customers.
           </ChooseCard>
         </motion.div>
       </motion.section>

@@ -34,7 +34,7 @@ function About() {
           <motion.p {...textAnimate}>
             AQUATEC was established in 1976 to cater for the swimming pool
             industry in Ghana. We have since branched out into other areas of
-            the water industry such as industrial and residential water supply,
+            the water industry such as industrial and residential water equipment,
             with its related equipment, including pump sets and irrigation
             equipment.
           </motion.p>

@@ -16,7 +16,7 @@ function StoreSection() {
         <motion.section className='w-full flex flex-col  gap-5'>
             <motion.div className='w-full flex flex-col md:flex-row justify-between items-center gap-3' >
                 <SectionHead>
-                    shop in our online store
+                    Visit our showroom online and our Abelenkpe showroom
                 </SectionHead>
                 <div className='md:w-1/6 self-end' >
                     <AnchorLink route="/store" >
