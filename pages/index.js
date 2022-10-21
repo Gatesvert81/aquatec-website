@@ -40,7 +40,7 @@ export default function Home() {
 
       <motion.main
         layout
-        className="h-screen pt-20 md:px-10 lg:px-20 pb-10 flex flex-col gap-10 justify-start md:justify-center items-center bg-dark-blue text-white"
+        className="h-screen pt-20 md:px-10 lg:px-20 pb-10 flex flex-col gap-10 justify-start md:justify-center items-center bg-dark-blue text-white "
       >
         <motion.div
           layout
