@@ -9,7 +9,7 @@ import categories from '../Assets/Categories'
 function StoreSection() {
 
     const storeCategories = categories.filter((category, index) => (
-        index <= 4
+        index <= 5
     ))
 
     return (
@@ -21,7 +21,7 @@ function StoreSection() {
                 <div className='md:w-1/6 self-end' >
                     <AnchorLink route="/store" >
                         <Button style=" self-end md:w-full primary-btn" >
-                            View Store
+                            View Shop
                         </Button>
                     </AnchorLink>
                 </div>

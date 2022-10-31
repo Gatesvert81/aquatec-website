@@ -42,7 +42,7 @@ function Footer() {
             style={`footer-btn ${page === "store" ? "page" : null} `}
             click={() => setPage("store")}
           >
-            Store
+            Online Shop
           </Button>
         </AnchorLink>
         <AnchorLink route="/contact">

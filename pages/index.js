@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 import { useContext, useEffect } from "react";
 import Page from "../src/AnimatedComponents/Page";
 import { AnimationContext, NavContext } from "../src/Components/Context";
+import ImageSlider from "../src/Components/ImageSlider";
 
-
-const AgencySection = dynamic(() => import("../src/Components/AgencySection"))
+const AgencySection = dynamic(() => import("../src/Components/AgencySection"));
 const Button = dynamic(() => import("../src/Components/Button"));
 const Video = dynamic(() => import("../src/Components/Video"));
 const ChooseCard = dynamic(() => import("../src/Components/ChooseCard"));
@@ -63,12 +63,8 @@ export default function Home() {
             <motion.h3 {...textAnimate}>About Us</motion.h3>
             <motion.p {...textAnimate}>
               <span>
-                Aquatec is a leader in the water industry selling residential and industrial water pumps.
-              </span>
-              <span className="hidden md:block">
-                Additionally, Aquatec is a water industry leader with its
-                products and services for industrial and residential water
-                supply.
+                Aquatec is a leader in the water industry selling residential
+                and industrial water pumps.
               </span>
             </motion.p>
             <motion.div className="w-full flex justify-between gap-2 items-center">
@@ -79,10 +75,12 @@ export default function Home() {
           </motion.div>
         </motion.div>
         <motion.div
-          className="w-full h-full md:h-50vh relative rounded-tr-[15vw] rounded-tl-[15vw] overflow-hidden grid grid-cols-2 "
+          className="w-full h-full md:h-50vh relative overflow-hidden grid grid-cols-2 "
           {...textAnimate}
         >
+          {/* <ImageSlider slides={["/project-pics/home-pool.webp", "/product-pics/water-pressure.jpg"]} /> */}
           <div className="w-full h-full relative">
+            
             <Image
               src="/project-pics/home-pool.webp"
               priority={true}
@@ -93,7 +91,7 @@ export default function Home() {
           </div>
           <div className="w-full h-full bg-white relative">
             <Image
-              src="/product-pics/water-pressure.jpg"
+              src="/product-pics/products grid.jpg"
               priority={true}
               alt="Dream pool"
               layout="fill"
@@ -116,17 +114,19 @@ export default function Home() {
             delayChildren: 0.2,
           }}
         >
-          <ChooseCard number="01" title="The best price">
-            Our prices are affordable and competitive.
+          <ChooseCard number="01" title="Quality Assurance">
+            Our partnership with top brands like Astral Pool, DAB, Fountains
+            Direct and others, ensures that our products are of top quality.
           </ChooseCard>
-          <ChooseCard number="02" title="Reliable">
+          <ChooseCard number="02" title="Professionality">
+            Our experts are not only qualified and capable in giving good advise
+            to our DIY (Do It Yourself) customers.
+          </ChooseCard>
+          <ChooseCard number="03" title="Reliable">
             Our showroom and warehouses are always well stocked.
           </ChooseCard>
-          <ChooseCard number="03" title="Quality Assurance">
-            Our partnership with top brands like Astral Pool, DAB, Fountains Direct and others, ensures that our products are of top quality.
-          </ChooseCard>
-          <ChooseCard number="04" title="Professionality">
-            Our experts are not only qualified and capable in giving good advise to our DIY (Do It Yourself) customers.
+          <ChooseCard number="04" title="The best price">
+            Our prices are affordable and competitive.
           </ChooseCard>
         </motion.div>
       </motion.section>
@@ -150,7 +150,7 @@ export default function Home() {
 
       <Video />
 
-      <ReviewSection />
+      {/* <ReviewSection /> */}
     </Page>
   );
 }

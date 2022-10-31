@@ -97,7 +97,7 @@ function Category({ category }) {
           <motion.h3>description</motion.h3>
           <motion.p>{category?.description}</motion.p>
           <Button style="primary-btn w-full" click={() => setOrder(!order)}>
-            Order to Reserve
+            Shop online
           </Button>
         </motion.div>
       </motion.section>
