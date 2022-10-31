@@ -111,7 +111,7 @@ function Category({ category }) {
             <motion.div className="w-full h-4/5 relative" {...imageAnimate}>
               <Image
                 src={`/product-pics/${subcategory.images[0]}`}
-                alt="Dream pool"
+                alt={subcategory.name}
                 layout="fill"
                 className="object-contain"
               />

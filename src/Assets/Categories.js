@@ -6,7 +6,7 @@ const categories = [
     subCategories: [
       {
         name: "Jet Pump",
-        images: ["jet-pump-1.webp"],
+        images: "jet-pump-1.webp",
       },
     ],
     options: [
