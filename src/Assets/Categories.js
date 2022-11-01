@@ -110,7 +110,7 @@ const categories = [
   {
     name: "Swimming Pool Chemicals",
     description: "Pool chemicals ",
-    mainImage: "chemicals.webp",
+    mainImage: "chemical-main.jpg",
     options: [
       "CHLORINE GRANULES 10KG 90%",
       "CHLIORINE GRANULES 50KG 90%",

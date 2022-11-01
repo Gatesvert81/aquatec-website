@@ -9,11 +9,17 @@ function ProjectCard({ children, image, number }) {
 
   return (
     <>
+    {/* <div className="w-full h-[35vh] bg-blue-300" >
+      <div className="w-full h-[80%] bg-red-300" >
+
+      </div>
+      <div className="w-full h-[20%] bg-green-300" />
+    </div> */}
       <motion.div
-        className="w-full h-30vh md:h-60vh relative overflow-hidden bg-gray-400 "
+        className="w-full h-[35vh] md:h-60vh relative overflow-hidden bg-gray-400 "
         onClick={() => setViewPhoto(!viewPhoto)}
       >
-        <motion.div className="w-full h-full bg-gray-300" {...imageAnimate}>
+        <motion.div className="w-full h-full bg-gray-300" >
           <Image
             src={`/project-pics/${image}`}
             alt="Dream pool"
@@ -22,7 +28,7 @@ function ProjectCard({ children, image, number }) {
           />
         </motion.div>
         <motion.div
-          className="w-full h-fit flex flex-col gap-2 left-0 absolute bottom-0  px-2 transition duration-500  bg-white/70 "
+          className="w-full h-fit flex flex-col gap-2 absolute left-0 bg-white/70 "
           initial={{
             bottom: "-100%",
             opacity: 0,

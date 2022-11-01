@@ -69,7 +69,7 @@ export default function Home() {
             </motion.p>
             <motion.div className="w-full flex justify-between gap-2 items-center">
               <motion.h4 {...textAnimate}>
-                350 + Projects completed for satisfied clients
+                350+ Projects <span className="text-xl font-normal">completed for satisfied clients</span> 
               </motion.h4>
             </motion.div>
           </motion.div>
@@ -80,7 +80,6 @@ export default function Home() {
         >
           {/* <ImageSlider slides={["/project-pics/home-pool.webp", "/product-pics/water-pressure.jpg"]} /> */}
           <div className="w-full h-full relative">
-            
             <Image
               src="/project-pics/home-pool.webp"
               priority={true}
@@ -91,7 +90,7 @@ export default function Home() {
           </div>
           <div className="w-full h-full bg-white relative">
             <Image
-              src="/product-pics/products grid.jpg"
+              src="/product-pics/landing-image.jpg"
               priority={true}
               alt="Dream pool"
               layout="fill"
@@ -118,12 +117,12 @@ export default function Home() {
             Our partnership with top brands like Astral Pool, DAB, Fountains
             Direct and others, ensures that our products are of top quality.
           </ChooseCard>
-          <ChooseCard number="02" title="Professionality">
+          <ChooseCard number="02" title="Professionalism">
             Our experts are not only qualified and capable in giving good advise
             to our DIY (Do It Yourself) customers.
           </ChooseCard>
           <ChooseCard number="03" title="Reliable">
-            Our showroom and warehouses are always well stocked.
+            Our showroom and warehouses are always fully stocked.
           </ChooseCard>
           <ChooseCard number="04" title="The best price">
             Our prices are affordable and competitive.
@@ -141,7 +140,7 @@ export default function Home() {
             </AnchorLink>
           </div>
         </motion.div>
-        <motion.div className="w-full md:h-40vh flex flex-col md:flex-row justify-center items-center gap-5 rounded-tl-[15vw] rounded-br-[15vw] overflow-hidden ">
+        <motion.div className="w-full md:h-40vh flex flex-col md:flex-row justify-center items-center gap-5 overflow-hidden ">
           <ProjectCard image="movinpic.webp" />
           <ProjectCard image="plant-house.webp" />
           <ProjectCard image="residence.webp" />

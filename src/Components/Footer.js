@@ -26,7 +26,7 @@ function Footer() {
             style={`footer-btn ${page === "about" ? "page" : null} `}
             click={() => setPage("about")}
           >
-            About
+            About us
           </Button>
         </AnchorLink>
         <AnchorLink route="/projects">
@@ -80,7 +80,7 @@ function Footer() {
               />
             </AnchorLink>
           </div>
-          <div className="icon">
+          {/* <div className="icon">
             <AnchorLink
               route="https://www.facebook.com/aquatecghana/"
               pass={true}
@@ -107,7 +107,7 @@ function Footer() {
                 className="object-contain"
               />
             </AnchorLink>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

@@ -84,10 +84,10 @@ function About() {
         <motion.div className="w-full h-40vh  relative overflow-hidden">
           <motion.div className="w-full h-full" {...imageAnimate}>
             <Image
-              src="/project-pics/cleaning.jpg"
+              src="/project-pics/anderson-pool.jpg"
               alt="Dream pool"
               layout="fill"
-              className="object-cover"
+              className="object-contain"
             />
           </motion.div>
         </motion.div>
@@ -114,7 +114,7 @@ function About() {
      <AgencySection /> 
       <StoreSection />
       <section>
-        <SectionHead>Come visit us</SectionHead>
+        <SectionHead>Come see us</SectionHead>
         <motion.div>
           <motion.div className="grid md:grid-cols-2 gap-5">
             <motion.div className="w-full flex flex-col justify-center h-full">
@@ -145,9 +145,6 @@ function About() {
             delayChildren: 0.5,
           }}
         >
-          <AdvantageCard icon="price">
-            We are never knowingly undersold. We will match any Price.
-          </AdvantageCard>
           <AdvantageCard icon="product">
             We are always fully stocked with our Products and Spare Parts.
           </AdvantageCard>

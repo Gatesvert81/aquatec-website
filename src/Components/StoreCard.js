@@ -16,11 +16,11 @@ function StoreCard({ children, image }) {
                 </motion.div>
             </motion.div>
             <motion.div 
-                className='w-full h-full absolute top-0 left-0 z-10 flex flex-col justify-center items-center bg-dark-blue/[0.12] -rotate-12 text-light-white hover:-translate-x-8 hover:translate-y-8 transition duration-500 ease-in-out rounded-full overflow-hidden' 
+                className='w-full h-full absolute top-0 left-0 z-10 flex flex-col justify-end items-center bg-dark-blue/[0.12] p-8  text-light-white hover:-translate-x-8 hover:translate-y-8 transition duration-500 ease-in-out rounded-full overflow-hidden' 
                 >
-                <motion.h3 {...textAnimate} className="text-center" >
+                <motion.h5 {...textAnimate} className="text-center" >
                     {children}
-                </motion.h3>
+                </motion.h5>
             </motion.div>
         </motion.div>
     )

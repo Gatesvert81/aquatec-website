@@ -51,7 +51,7 @@ function Navigation() {
                             style={`side-nav-btn ${page === 'about' ? "page" : null} `}
                             click={() => setPage('about')}
                         >
-                            About
+                            About us
                         </Button>
                     </AnchorLink>
                     <AnchorLink route="/projects">
@@ -132,7 +132,7 @@ function Navigation() {
                                     style={`side-nav-btn ${page === 'about' ? "page" : null} `}
                                     click={() => handleNav('about')}
                                 >
-                                    About
+                                    About us
                                 </Button>
                             </AnchorLink>
                             <AnchorLink route="/store">
