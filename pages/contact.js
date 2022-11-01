@@ -48,19 +48,19 @@ function Contact() {
           <form className="w-full grid grid-cols-1 gap-2">
             <fieldset>
               <label>Full Name</label>
-              <input type="text" placeholder="Gates Vert" />
+              <input type="text"  />
             </fieldset>
             <fieldset>
               <label>Email</label>
-              <input type="email" placeholder="gatesvert@gmail.com" />
+              <input type="email" />
             </fieldset>
             <fieldset>
               <label>Telephone Number</label>
-              <input type="tel" placeholder="054126847" />
+              <input type="tel" />
             </fieldset>
             <fieldset>
               <label>Message</label>
-              <textarea type="text" placeholder="Gates Vert" />
+              <textarea type="text" />
             </fieldset>
             <fieldset>
               <Button style=" w-full primary-btn">Send Message</Button>

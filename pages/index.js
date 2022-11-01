@@ -81,7 +81,7 @@ export default function Home() {
           {/* <ImageSlider slides={["/project-pics/home-pool.webp", "/product-pics/water-pressure.jpg"]} /> */}
           <div className="w-full h-full relative">
             <Image
-              src="/project-pics/home-pool.webp"
+              src="/project-pics/duplan-pool.jpg"
               priority={true}
               alt="Dream pool"
               layout="fill"
