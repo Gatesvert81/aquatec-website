@@ -6,7 +6,7 @@ const categories = [
     subCategories: [
       {
         name: "Jet Pump",
-        images: "jet-pump-1.webp",
+        images: ["jet-pump-1.webp"],
       },
     ],
     options: [
@@ -49,11 +49,11 @@ const categories = [
   {
     name: "Water Pressure Sets",
     description:
-      "We have in stock wide range of Water Pressure from DAB and others",
+      "We have in stock wide range of Water Pressure Sets from DAB and others",
     mainImage: "dab-water-2.png",
     subCategories: [
       {
-        name: "Water Pressure set",
+        name: "Water Pressure Sets",
         images: ["water-pressure.jpg"],
       },
     ],
