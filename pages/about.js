@@ -145,11 +145,11 @@ function About() {
             delayChildren: 0.5,
           }}
         >
-          <AdvantageCard icon="product">
-            We are always fully stocked with our Products and Spare Parts.
-          </AdvantageCard>
           <AdvantageCard icon="service">
             We install our equipment upon request.
+          </AdvantageCard>
+          <AdvantageCard icon="product">
+            We are always fully stocked with our Products and Spare Parts.
           </AdvantageCard>
           <AdvantageCard icon="sales">
             We provide After Sales Service.

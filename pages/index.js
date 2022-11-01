@@ -81,7 +81,7 @@ export default function Home() {
           {/* <ImageSlider slides={["/project-pics/home-pool.webp", "/product-pics/water-pressure.jpg"]} /> */}
           <div className="w-full h-full relative">
             <Image
-              src="/project-pics/duplan-pool.jpg"
+              src="/project-pics/plant-house.webp"
               priority={true}
               alt="Dream pool"
               layout="fill"
@@ -142,7 +142,7 @@ export default function Home() {
         </motion.div>
         <motion.div className="w-full md:h-40vh flex flex-col md:flex-row justify-center items-center gap-5 overflow-hidden ">
           <ProjectCard image="movinpic.webp" />
-          <ProjectCard image="plant-house.webp" />
+          <ProjectCard image="duplan-pool.jpg" />
           <ProjectCard image="residence.webp" />
         </motion.div>
       </motion.section>
