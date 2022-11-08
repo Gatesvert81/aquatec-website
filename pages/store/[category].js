@@ -86,11 +86,16 @@ function Category({ category }) {
         >
           <motion.div className="w-full h-full" {...imageAnimate}>
             <Image
-              src={`/product-pics/${category?.mainImage}`}
+              src={`/product-pics/${category.mainImage}`}
               alt={category?.name}
               layout="fill"
               className="object-contain"
             />
+            {/* <img
+              src={require(`../../public/product-pics/${category.mainImage}`)}
+              alt={category.name}
+              class
+            /> */}
           </motion.div>
         </motion.div>
         <motion.div className="flex flex-col gap-5">
@@ -191,7 +196,10 @@ function Category({ category }) {
               </fieldset>
               <fieldset>
                 <label>Cannot find a particular product ?</label>
-                <p>Tell us the product name, We will let you know whether it is available.</p>
+                <p>
+                  Tell us the product name, We will let you know whether it is
+                  available.
+                </p>
                 <input
                   type="text"
                   placeholder="Product name"

@@ -17,6 +17,11 @@ function Contact() {
     if (page !== "contact") setPage("contact");
   }, []);
 
+  const handleForm = (e) => {
+    e.preventDefault()
+    alert("Thanks for messaging us")
+  }
+
   return (
     <Page style="pt-20 min-h-[80vh]">
       <Head>
@@ -45,7 +50,7 @@ function Contact() {
           </AdvantageCard>
         </motion.div>
         <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          <form className="w-full grid grid-cols-1 gap-2">
+          <form onSubmit={handleForm} className="w-full grid grid-cols-1 gap-2">
             <fieldset>
               <label>Full Name</label>
               <input type="text"  />
