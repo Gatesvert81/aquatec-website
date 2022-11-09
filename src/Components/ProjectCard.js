@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { AnimationContext } from "./Context";
-import Image from "next/image";
+import Image from './Image'
 
 function ProjectCard({ children, image, number }) {
   const [viewPhoto, setViewPhoto] = useState(false);

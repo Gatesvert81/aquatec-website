@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { motion } from 'framer-motion'
 import { AnimationContext } from './Context'
-import Image from 'next/image'
+import Image from './Image'
 
 function AdvantageCard({ children, icon }) {
     const { textAnimate } = useContext(AnimationContext)

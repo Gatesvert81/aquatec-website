@@ -5,9 +5,10 @@ import { useRouter } from "next/router";
 import Page from "../../src/AnimatedComponents/Page";
 import { AnimationContext } from "../../src/Components/Context";
 import categories from "../../src/Assets/Categories";
-import Image from "next/image";
+
 import Button from "../../src/Components/Button";
 import emailjs from "@emailjs/browser";
+import Image from "../../src/Components/Image";
 
 function Category({ category }) {
   const [order, setOrder] = useState(false);
@@ -91,6 +92,11 @@ function Category({ category }) {
               layout="fill"
               className="object-contain"
             />
+             {/* <img
+              src={`../../public/product-pics/${category.mainImage}`}
+              alt={category.name}
+              className='w-full h-full'
+            /> */}
             {/* <img
               src={require(`../../public/product-pics/${category.mainImage}`)}
               alt={category.name}

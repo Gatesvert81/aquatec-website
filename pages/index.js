@@ -1,6 +1,6 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
-import Image from "next/image";
+import Image from "../src/Components/Image";
 import { motion } from "framer-motion";
 import { useContext, useEffect } from "react";
 import Page from "../src/AnimatedComponents/Page";

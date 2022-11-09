@@ -2,9 +2,9 @@ import React, { useContext, useEffect } from "react";
 import { motion } from "framer-motion";
 import Head from "next/head";
 import dynamic from "next/dynamic";
-import Image from "next/image";
 import { AnimationContext, NavContext } from "../src/Components/Context";
 import Page from "../src/AnimatedComponents/Page";
+import Image from "../src/Components/Image";
 
 const AgencySection = dynamic(() => import("../src/Components/AgencySection"))
 const SectionHead = dynamic(() => import("../src/Components/SectionHead"));

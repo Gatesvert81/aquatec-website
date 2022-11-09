@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from './Image'
 import React, { useContext, useEffect } from 'react'
 import { NavContext } from './Context'
 

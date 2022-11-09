@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Button from "./Button";
-import Image from "next/image";
+import Image from './Image'
 import AnchorLink from "./AnchorLink";
 import { NavContext } from "./Context";
 import FooterLogo from "./FooterLogo";

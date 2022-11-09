@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import  { motion } from 'framer-motion'
 import SectionHead from "./SectionHead";
 import AnchorLink from "./AnchorLink";
-import Image from "next/image";
+import Image from './Image'
 import { AnimationContext } from "./Context";
 
 function AgencySection() {
