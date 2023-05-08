@@ -72,12 +72,40 @@ function Footer() {
         <div className="w-full flex justify-center items-center gap-3">
           <div className="icon">
             <AnchorLink
-              route="https://www.facebook.com/aquatecghana/"
+              route="https://www.facebook.com/aquatecserviceslimited/"
               pass={true}
               target={true}
             >
               <Image
                 src="/icons/fb.png"
+                alt="Dream pool"
+                layout="fill"
+                className="object-contain"
+              />
+            </AnchorLink>
+          </div>
+          <div className="icon">
+            <AnchorLink
+              route="https://www.twitter.com/aquatecghana/"
+              pass={true}
+              target={true}
+            >
+              <Image
+                src="/icons/twitter.png"
+                alt="Dream pool"
+                layout="fill"
+                className="object-contain"
+              />
+            </AnchorLink>
+          </div>
+          <div className="icon">
+            <AnchorLink
+              route="https://www.instagram.com/aquatecservicesltd/"
+              pass={true}
+              target={true}
+            >
+              <Image
+                src="/icons/ig.png"
                 alt="Dream pool"
                 layout="fill"
                 className="object-contain"
